@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B95F91D420D6EC4D7B69A0 /* Pods_UberEatsPhoneAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C015D7D6B94B9FA0A7A2F33F /* Pods_UberEatsPhoneAuthentication.framework */; };
+		79BF3C6123599E6E0012F945 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C6023599E6E0012F945 /* AppDelegate.swift */; };
+		79BF3C6323599E6E0012F945 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C6223599E6E0012F945 /* SceneDelegate.swift */; };
+		79BF3C6523599E6E0012F945 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C6423599E6E0012F945 /* ViewController.swift */; };
+		79BF3C6823599E6E0012F945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3C6623599E6E0012F945 /* Main.storyboard */; };
+		79BF3C6A23599E6F0012F945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3C6923599E6F0012F945 /* Assets.xcassets */; };
+		79BF3C6D23599E6F0012F945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3C6B23599E6F0012F945 /* LaunchScreen.storyboard */; };
+		79BF3C7823599E700012F945 /* UberEatsPhoneAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C7723599E700012F945 /* UberEatsPhoneAuthenticationTests.swift */; };
+		79BF3C8323599F200012F945 /* Screen_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C8223599F200012F945 /* Screen_1.swift */; };
+		79BF3C8523599F640012F945 /* Screen_1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3C8423599F640012F945 /* Screen_1.xib */; };
+		79BF3C872359A13C0012F945 /* Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C862359A13C0012F945 /* Nib.swift */; };
+		79BF3C8B235A03560012F945 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C88235A03560012F945 /* Countries.swift */; };
+		79BF3C8C235A03560012F945 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C88235A03560012F945 /* Countries.swift */; };
+		79BF3C8D235A03560012F945 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C89235A03560012F945 /* Country.swift */; };
+		79BF3C8E235A03560012F945 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C89235A03560012F945 /* Country.swift */; };
+		79BF3C8F235A03560012F945 /* country-codes.json in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3C8A235A03560012F945 /* country-codes.json */; };
+		79BF3C90235A03560012F945 /* country-codes.json in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3C8A235A03560012F945 /* country-codes.json */; };
+		79BF3C94235A03E60012F945 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C91235A03E60012F945 /* Dynamic.swift */; };
+		79BF3C95235A03E60012F945 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C91235A03E60012F945 /* Dynamic.swift */; };
+		79BF3C96235A03E60012F945 /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C92235A03E60012F945 /* JSONReader.swift */; };
+		79BF3C97235A03E60012F945 /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C92235A03E60012F945 /* JSONReader.swift */; };
+		79BF3CA1235A03FC0012F945 /* CountryCodeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C9B235A03FB0012F945 /* CountryCodeListController.swift */; };
+		79BF3CA2235A03FC0012F945 /* CountryCodeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C9B235A03FB0012F945 /* CountryCodeListController.swift */; };
+		79BF3CA3235A03FC0012F945 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C9C235A03FB0012F945 /* CountryViewModel.swift */; };
+		79BF3CA4235A03FC0012F945 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C9C235A03FB0012F945 /* CountryViewModel.swift */; };
+		79BF3CA5235A03FC0012F945 /* CountryCodeListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3C9D235A03FB0012F945 /* CountryCodeListCell.xib */; };
+		79BF3CA6235A03FC0012F945 /* CountryCodeListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3C9D235A03FB0012F945 /* CountryCodeListCell.xib */; };
+		79BF3CA7235A03FC0012F945 /* CountryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C9E235A03FB0012F945 /* CountryListViewModel.swift */; };
+		79BF3CA8235A03FC0012F945 /* CountryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C9E235A03FB0012F945 /* CountryListViewModel.swift */; };
+		79BF3CA9235A03FC0012F945 /* CountryCodeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C9F235A03FC0012F945 /* CountryCodeListCell.swift */; };
+		79BF3CAA235A03FC0012F945 /* CountryCodeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C9F235A03FC0012F945 /* CountryCodeListCell.swift */; };
+		79BF3CAB235A03FC0012F945 /* CountryCodeListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3CA0235A03FC0012F945 /* CountryCodeListDataSource.swift */; };
+		79BF3CAC235A03FC0012F945 /* CountryCodeListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3CA0235A03FC0012F945 /* CountryCodeListDataSource.swift */; };
+		79BF3CAE235A170F0012F945 /* CountryListSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3CAD235A170F0012F945 /* CountryListSectionView.swift */; };
+		79BF3CAF235A170F0012F945 /* CountryListSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3CAD235A170F0012F945 /* CountryListSectionView.swift */; };
+		79BF3CB1235A18540012F945 /* CountryListSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3CB0235A18540012F945 /* CountryListSectionView.xib */; };
+		79BF3CB2235A18540012F945 /* CountryListSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3CB0235A18540012F945 /* CountryListSectionView.xib */; };
+		79BF3CB4235A33570012F945 /* CountryListTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3CB3235A33570012F945 /* CountryListTopBar.swift */; };
+		79BF3CB5235A33570012F945 /* CountryListTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3CB3235A33570012F945 /* CountryListTopBar.swift */; };
+		79BF3CB7235A33600012F945 /* CountryListTopBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3CB6235A33600012F945 /* CountryListTopBar.xib */; };
+		79BF3CB8235A33600012F945 /* CountryListTopBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3CB6235A33600012F945 /* CountryListTopBar.xib */; };
+		AF964E0535AE8A51DA5962F7 /* Pods_UberEatsPhoneAuthenticationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90919663DFFB8D4C0EA703DA /* Pods_UberEatsPhoneAuthenticationTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79BF3C7423599E6F0012F945 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79BF3C5523599E6E0012F945 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79BF3C5C23599E6E0012F945;
+			remoteInfo = UberEatsPhoneAuthentication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		319EF937F355531906D38151 /* Pods-UberEatsPhoneAuthenticationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberEatsPhoneAuthenticationTests.debug.xcconfig"; path = "Target Support Files/Pods-UberEatsPhoneAuthenticationTests/Pods-UberEatsPhoneAuthenticationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		786768469AEE276FF3599212 /* Pods-UberEatsPhoneAuthenticationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberEatsPhoneAuthenticationTests.release.xcconfig"; path = "Target Support Files/Pods-UberEatsPhoneAuthenticationTests/Pods-UberEatsPhoneAuthenticationTests.release.xcconfig"; sourceTree = "<group>"; };
+		79BF3C5D23599E6E0012F945 /* UberEatsPhoneAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberEatsPhoneAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BF3C6023599E6E0012F945 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79BF3C6223599E6E0012F945 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79BF3C6423599E6E0012F945 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79BF3C6723599E6E0012F945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79BF3C6923599E6F0012F945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79BF3C6C23599E6F0012F945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79BF3C6E23599E6F0012F945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BF3C7323599E6F0012F945 /* UberEatsPhoneAuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberEatsPhoneAuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BF3C7723599E700012F945 /* UberEatsPhoneAuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberEatsPhoneAuthenticationTests.swift; sourceTree = "<group>"; };
+		79BF3C7923599E700012F945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BF3C8223599F200012F945 /* Screen_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen_1.swift; sourceTree = "<group>"; };
+		79BF3C8423599F640012F945 /* Screen_1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Screen_1.xib; sourceTree = "<group>"; };
+		79BF3C862359A13C0012F945 /* Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nib.swift; sourceTree = "<group>"; };
+		79BF3C88235A03560012F945 /* Countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		79BF3C89235A03560012F945 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		79BF3C8A235A03560012F945 /* country-codes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "country-codes.json"; sourceTree = "<group>"; };
+		79BF3C91235A03E60012F945 /* Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		79BF3C92235A03E60012F945 /* JSONReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONReader.swift; sourceTree = "<group>"; };
+		79BF3C9B235A03FB0012F945 /* CountryCodeListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeListController.swift; sourceTree = "<group>"; };
+		79BF3C9C235A03FB0012F945 /* CountryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		79BF3C9D235A03FB0012F945 /* CountryCodeListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryCodeListCell.xib; sourceTree = "<group>"; };
+		79BF3C9E235A03FB0012F945 /* CountryListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListViewModel.swift; sourceTree = "<group>"; };
+		79BF3C9F235A03FC0012F945 /* CountryCodeListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeListCell.swift; sourceTree = "<group>"; };
+		79BF3CA0235A03FC0012F945 /* CountryCodeListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeListDataSource.swift; sourceTree = "<group>"; };
+		79BF3CAD235A170F0012F945 /* CountryListSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListSectionView.swift; sourceTree = "<group>"; };
+		79BF3CB0235A18540012F945 /* CountryListSectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryListSectionView.xib; sourceTree = "<group>"; };
+		79BF3CB3235A33570012F945 /* CountryListTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListTopBar.swift; sourceTree = "<group>"; };
+		79BF3CB6235A33600012F945 /* CountryListTopBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryListTopBar.xib; sourceTree = "<group>"; };
+		88A3C76C4B96C2C909B27181 /* Pods-UberEatsPhoneAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberEatsPhoneAuthentication.release.xcconfig"; path = "Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication.release.xcconfig"; sourceTree = "<group>"; };
+		90919663DFFB8D4C0EA703DA /* Pods_UberEatsPhoneAuthenticationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberEatsPhoneAuthenticationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C015D7D6B94B9FA0A7A2F33F /* Pods_UberEatsPhoneAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UberEatsPhoneAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB4B3784105A34EF2F02E83 /* Pods-UberEatsPhoneAuthentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UberEatsPhoneAuthentication.debug.xcconfig"; path = "Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79BF3C5A23599E6E0012F945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B95F91D420D6EC4D7B69A0 /* Pods_UberEatsPhoneAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BF3C7023599E6F0012F945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF964E0535AE8A51DA5962F7 /* Pods_UberEatsPhoneAuthenticationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79BF3C5423599E6E0012F945 = {
+			isa = PBXGroup;
+			children = (
+				79BF3C5F23599E6E0012F945 /* UberEatsPhoneAuthentication */,
+				79BF3C7623599E700012F945 /* UberEatsPhoneAuthenticationTests */,
+				79BF3C5E23599E6E0012F945 /* Products */,
+				80B737318EC9A79F708CCA81 /* Pods */,
+				ED350F66EA833EDD55B60845 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79BF3C5E23599E6E0012F945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79BF3C5D23599E6E0012F945 /* UberEatsPhoneAuthentication.app */,
+				79BF3C7323599E6F0012F945 /* UberEatsPhoneAuthenticationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79BF3C5F23599E6E0012F945 /* UberEatsPhoneAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				79BF3C9A235A03FB0012F945 /* CountryList */,
+				79BF3C6023599E6E0012F945 /* AppDelegate.swift */,
+				79BF3C6223599E6E0012F945 /* SceneDelegate.swift */,
+				79BF3C6423599E6E0012F945 /* ViewController.swift */,
+				79BF3C88235A03560012F945 /* Countries.swift */,
+				79BF3C8A235A03560012F945 /* country-codes.json */,
+				79BF3C89235A03560012F945 /* Country.swift */,
+				79BF3C91235A03E60012F945 /* Dynamic.swift */,
+				79BF3C92235A03E60012F945 /* JSONReader.swift */,
+				79BF3C862359A13C0012F945 /* Nib.swift */,
+				79BF3C6623599E6E0012F945 /* Main.storyboard */,
+				79BF3C8223599F200012F945 /* Screen_1.swift */,
+				79BF3C8423599F640012F945 /* Screen_1.xib */,
+				79BF3C6923599E6F0012F945 /* Assets.xcassets */,
+				79BF3C6B23599E6F0012F945 /* LaunchScreen.storyboard */,
+				79BF3C6E23599E6F0012F945 /* Info.plist */,
+			);
+			path = UberEatsPhoneAuthentication;
+			sourceTree = "<group>";
+		};
+		79BF3C7623599E700012F945 /* UberEatsPhoneAuthenticationTests */ = {
+			isa = PBXGroup;
+			children = (
+				79BF3C7723599E700012F945 /* UberEatsPhoneAuthenticationTests.swift */,
+				79BF3C7923599E700012F945 /* Info.plist */,
+			);
+			path = UberEatsPhoneAuthenticationTests;
+			sourceTree = "<group>";
+		};
+		79BF3C9A235A03FB0012F945 /* CountryList */ = {
+			isa = PBXGroup;
+			children = (
+				79BF3C9B235A03FB0012F945 /* CountryCodeListController.swift */,
+				79BF3CB3235A33570012F945 /* CountryListTopBar.swift */,
+				79BF3CB6235A33600012F945 /* CountryListTopBar.xib */,
+				79BF3C9C235A03FB0012F945 /* CountryViewModel.swift */,
+				79BF3C9F235A03FC0012F945 /* CountryCodeListCell.swift */,
+				79BF3C9D235A03FB0012F945 /* CountryCodeListCell.xib */,
+				79BF3C9E235A03FB0012F945 /* CountryListViewModel.swift */,
+				79BF3CA0235A03FC0012F945 /* CountryCodeListDataSource.swift */,
+				79BF3CAD235A170F0012F945 /* CountryListSectionView.swift */,
+				79BF3CB0235A18540012F945 /* CountryListSectionView.xib */,
+			);
+			path = CountryList;
+			sourceTree = "<group>";
+		};
+		80B737318EC9A79F708CCA81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAB4B3784105A34EF2F02E83 /* Pods-UberEatsPhoneAuthentication.debug.xcconfig */,
+				88A3C76C4B96C2C909B27181 /* Pods-UberEatsPhoneAuthentication.release.xcconfig */,
+				319EF937F355531906D38151 /* Pods-UberEatsPhoneAuthenticationTests.debug.xcconfig */,
+				786768469AEE276FF3599212 /* Pods-UberEatsPhoneAuthenticationTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED350F66EA833EDD55B60845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C015D7D6B94B9FA0A7A2F33F /* Pods_UberEatsPhoneAuthentication.framework */,
+				90919663DFFB8D4C0EA703DA /* Pods_UberEatsPhoneAuthenticationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79BF3C5C23599E6E0012F945 /* UberEatsPhoneAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BF3C7C23599E700012F945 /* Build configuration list for PBXNativeTarget "UberEatsPhoneAuthentication" */;
+			buildPhases = (
+				E33F15DBFBC31C0858D7F75F /* [CP] Check Pods Manifest.lock */,
+				79BF3C5923599E6E0012F945 /* Sources */,
+				79BF3C5A23599E6E0012F945 /* Frameworks */,
+				79BF3C5B23599E6E0012F945 /* Resources */,
+				025D8C6BE3703829FF1CC4D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberEatsPhoneAuthentication;
+			productName = UberEatsPhoneAuthentication;
+			productReference = 79BF3C5D23599E6E0012F945 /* UberEatsPhoneAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79BF3C7223599E6F0012F945 /* UberEatsPhoneAuthenticationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BF3C7F23599E700012F945 /* Build configuration list for PBXNativeTarget "UberEatsPhoneAuthenticationTests" */;
+			buildPhases = (
+				CD57BEC81B6F1237D726D6AB /* [CP] Check Pods Manifest.lock */,
+				79BF3C6F23599E6F0012F945 /* Sources */,
+				79BF3C7023599E6F0012F945 /* Frameworks */,
+				79BF3C7123599E6F0012F945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79BF3C7523599E6F0012F945 /* PBXTargetDependency */,
+			);
+			name = UberEatsPhoneAuthenticationTests;
+			productName = UberEatsPhoneAuthenticationTests;
+			productReference = 79BF3C7323599E6F0012F945 /* UberEatsPhoneAuthenticationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79BF3C5523599E6E0012F945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Kumar, Ranjith B. (623-Extern)";
+				TargetAttributes = {
+					79BF3C5C23599E6E0012F945 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					79BF3C7223599E6F0012F945 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 79BF3C5C23599E6E0012F945;
+					};
+				};
+			};
+			buildConfigurationList = 79BF3C5823599E6E0012F945 /* Build configuration list for PBXProject "UberEatsPhoneAuthentication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79BF3C5423599E6E0012F945;
+			productRefGroup = 79BF3C5E23599E6E0012F945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79BF3C5C23599E6E0012F945 /* UberEatsPhoneAuthentication */,
+				79BF3C7223599E6F0012F945 /* UberEatsPhoneAuthenticationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79BF3C5B23599E6E0012F945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BF3C6D23599E6F0012F945 /* LaunchScreen.storyboard in Resources */,
+				79BF3CA5235A03FC0012F945 /* CountryCodeListCell.xib in Resources */,
+				79BF3CB1235A18540012F945 /* CountryListSectionView.xib in Resources */,
+				79BF3C8F235A03560012F945 /* country-codes.json in Resources */,
+				79BF3C6A23599E6F0012F945 /* Assets.xcassets in Resources */,
+				79BF3C6823599E6E0012F945 /* Main.storyboard in Resources */,
+				79BF3CB7235A33600012F945 /* CountryListTopBar.xib in Resources */,
+				79BF3C8523599F640012F945 /* Screen_1.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BF3C7123599E6F0012F945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BF3C90235A03560012F945 /* country-codes.json in Resources */,
+				79BF3CB2235A18540012F945 /* CountryListSectionView.xib in Resources */,
+				79BF3CB8235A33600012F945 /* CountryListTopBar.xib in Resources */,
+				79BF3CA6235A03FC0012F945 /* CountryCodeListCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		025D8C6BE3703829FF1CC4D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD57BEC81B6F1237D726D6AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UberEatsPhoneAuthenticationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E33F15DBFBC31C0858D7F75F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UberEatsPhoneAuthentication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79BF3C5923599E6E0012F945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BF3C8D235A03560012F945 /* Country.swift in Sources */,
+				79BF3CA9235A03FC0012F945 /* CountryCodeListCell.swift in Sources */,
+				79BF3C96235A03E60012F945 /* JSONReader.swift in Sources */,
+				79BF3C6523599E6E0012F945 /* ViewController.swift in Sources */,
+				79BF3C872359A13C0012F945 /* Nib.swift in Sources */,
+				79BF3CAE235A170F0012F945 /* CountryListSectionView.swift in Sources */,
+				79BF3CA3235A03FC0012F945 /* CountryViewModel.swift in Sources */,
+				79BF3C6123599E6E0012F945 /* AppDelegate.swift in Sources */,
+				79BF3C6323599E6E0012F945 /* SceneDelegate.swift in Sources */,
+				79BF3C94235A03E60012F945 /* Dynamic.swift in Sources */,
+				79BF3CB4235A33570012F945 /* CountryListTopBar.swift in Sources */,
+				79BF3CA1235A03FC0012F945 /* CountryCodeListController.swift in Sources */,
+				79BF3CAB235A03FC0012F945 /* CountryCodeListDataSource.swift in Sources */,
+				79BF3CA7235A03FC0012F945 /* CountryListViewModel.swift in Sources */,
+				79BF3C8B235A03560012F945 /* Countries.swift in Sources */,
+				79BF3C8323599F200012F945 /* Screen_1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BF3C6F23599E6F0012F945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BF3C8C235A03560012F945 /* Countries.swift in Sources */,
+				79BF3CA8235A03FC0012F945 /* CountryListViewModel.swift in Sources */,
+				79BF3C97235A03E60012F945 /* JSONReader.swift in Sources */,
+				79BF3C95235A03E60012F945 /* Dynamic.swift in Sources */,
+				79BF3CAC235A03FC0012F945 /* CountryCodeListDataSource.swift in Sources */,
+				79BF3C8E235A03560012F945 /* Country.swift in Sources */,
+				79BF3CB5235A33570012F945 /* CountryListTopBar.swift in Sources */,
+				79BF3C7823599E700012F945 /* UberEatsPhoneAuthenticationTests.swift in Sources */,
+				79BF3CA4235A03FC0012F945 /* CountryViewModel.swift in Sources */,
+				79BF3CAF235A170F0012F945 /* CountryListSectionView.swift in Sources */,
+				79BF3CA2235A03FC0012F945 /* CountryCodeListController.swift in Sources */,
+				79BF3CAA235A03FC0012F945 /* CountryCodeListCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79BF3C7523599E6F0012F945 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79BF3C5C23599E6E0012F945 /* UberEatsPhoneAuthentication */;
+			targetProxy = 79BF3C7423599E6F0012F945 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79BF3C6623599E6E0012F945 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79BF3C6723599E6E0012F945 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79BF3C6B23599E6F0012F945 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79BF3C6C23599E6F0012F945 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79BF3C7A23599E700012F945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79BF3C7B23599E700012F945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79BF3C7D23599E700012F945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB4B3784105A34EF2F02E83 /* Pods-UberEatsPhoneAuthentication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35P9S7STBV;
+				INFOPLIST_FILE = UberEatsPhoneAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DrawRect.UberEatsPhoneAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79BF3C7E23599E700012F945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A3C76C4B96C2C909B27181 /* Pods-UberEatsPhoneAuthentication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35P9S7STBV;
+				INFOPLIST_FILE = UberEatsPhoneAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DrawRect.UberEatsPhoneAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79BF3C8023599E700012F945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 319EF937F355531906D38151 /* Pods-UberEatsPhoneAuthenticationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35P9S7STBV;
+				INFOPLIST_FILE = UberEatsPhoneAuthenticationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DrawRect.UberEatsPhoneAuthenticationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberEatsPhoneAuthentication.app/UberEatsPhoneAuthentication";
+			};
+			name = Debug;
+		};
+		79BF3C8123599E700012F945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786768469AEE276FF3599212 /* Pods-UberEatsPhoneAuthenticationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35P9S7STBV;
+				INFOPLIST_FILE = UberEatsPhoneAuthenticationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DrawRect.UberEatsPhoneAuthenticationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberEatsPhoneAuthentication.app/UberEatsPhoneAuthentication";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79BF3C5823599E6E0012F945 /* Build configuration list for PBXProject "UberEatsPhoneAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BF3C7A23599E700012F945 /* Debug */,
+				79BF3C7B23599E700012F945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BF3C7C23599E700012F945 /* Build configuration list for PBXNativeTarget "UberEatsPhoneAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BF3C7D23599E700012F945 /* Debug */,
+				79BF3C7E23599E700012F945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BF3C7F23599E700012F945 /* Build configuration list for PBXNativeTarget "UberEatsPhoneAuthenticationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BF3C8023599E700012F945 /* Debug */,
+				79BF3C8123599E700012F945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79BF3C5523599E6E0012F945 /* Project object */;
+}
