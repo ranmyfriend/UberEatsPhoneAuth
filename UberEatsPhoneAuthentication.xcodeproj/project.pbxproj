@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,8 +15,8 @@
 		79BF3C6A23599E6F0012F945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3C6923599E6F0012F945 /* Assets.xcassets */; };
 		79BF3C6D23599E6F0012F945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3C6B23599E6F0012F945 /* LaunchScreen.storyboard */; };
 		79BF3C7823599E700012F945 /* UberEatsPhoneAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C7723599E700012F945 /* UberEatsPhoneAuthenticationTests.swift */; };
-		79BF3C8323599F200012F945 /* Screen_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C8223599F200012F945 /* Screen_1.swift */; };
-		79BF3C8523599F640012F945 /* Screen_1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3C8423599F640012F945 /* Screen_1.xib */; };
+		79BF3C8323599F200012F945 /* ScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C8223599F200012F945 /* ScreenOne.swift */; };
+		79BF3C8523599F640012F945 /* ScreenOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79BF3C8423599F640012F945 /* ScreenOne.xib */; };
 		79BF3C872359A13C0012F945 /* Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C862359A13C0012F945 /* Nib.swift */; };
 		79BF3C8B235A03560012F945 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C88235A03560012F945 /* Countries.swift */; };
 		79BF3C8C235A03560012F945 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BF3C88235A03560012F945 /* Countries.swift */; };
@@ -75,8 +75,8 @@
 		79BF3C7323599E6F0012F945 /* UberEatsPhoneAuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberEatsPhoneAuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BF3C7723599E700012F945 /* UberEatsPhoneAuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberEatsPhoneAuthenticationTests.swift; sourceTree = "<group>"; };
 		79BF3C7923599E700012F945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79BF3C8223599F200012F945 /* Screen_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen_1.swift; sourceTree = "<group>"; };
-		79BF3C8423599F640012F945 /* Screen_1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Screen_1.xib; sourceTree = "<group>"; };
+		79BF3C8223599F200012F945 /* ScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenOne.swift; sourceTree = "<group>"; };
+		79BF3C8423599F640012F945 /* ScreenOne.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenOne.xib; sourceTree = "<group>"; };
 		79BF3C862359A13C0012F945 /* Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nib.swift; sourceTree = "<group>"; };
 		79BF3C88235A03560012F945 /* Countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
 		79BF3C89235A03560012F945 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
@@ -153,8 +153,8 @@
 				79BF3C92235A03E60012F945 /* JSONReader.swift */,
 				79BF3C862359A13C0012F945 /* Nib.swift */,
 				79BF3C6623599E6E0012F945 /* Main.storyboard */,
-				79BF3C8223599F200012F945 /* Screen_1.swift */,
-				79BF3C8423599F640012F945 /* Screen_1.xib */,
+				79BF3C8223599F200012F945 /* ScreenOne.swift */,
+				79BF3C8423599F640012F945 /* ScreenOne.xib */,
 				79BF3C6923599E6F0012F945 /* Assets.xcassets */,
 				79BF3C6B23599E6F0012F945 /* LaunchScreen.storyboard */,
 				79BF3C6E23599E6F0012F945 /* Info.plist */,
@@ -220,6 +220,7 @@
 				79BF3C5A23599E6E0012F945 /* Frameworks */,
 				79BF3C5B23599E6E0012F945 /* Resources */,
 				025D8C6BE3703829FF1CC4D7 /* [CP] Embed Pods Frameworks */,
+				79049347237D62EB00C7149E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -299,7 +300,7 @@
 				79BF3C6A23599E6F0012F945 /* Assets.xcassets in Resources */,
 				79BF3C6823599E6E0012F945 /* Main.storyboard in Resources */,
 				79BF3CB7235A33600012F945 /* CountryListTopBar.xib in Resources */,
-				79BF3C8523599F640012F945 /* Screen_1.xib in Resources */,
+				79BF3C8523599F640012F945 /* ScreenOne.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,21 +324,33 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		79049347237D62EB00C7149E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		CD57BEC81B6F1237D726D6AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -405,7 +418,7 @@
 				79BF3CAB235A03FC0012F945 /* CountryCodeListDataSource.swift in Sources */,
 				79BF3CA7235A03FC0012F945 /* CountryListViewModel.swift in Sources */,
 				79BF3C8B235A03560012F945 /* Countries.swift in Sources */,
-				79BF3C8323599F200012F945 /* Screen_1.swift in Sources */,
+				79BF3C8323599F200012F945 /* ScreenOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

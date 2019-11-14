@@ -11,22 +11,22 @@ import UIKit
 import SnapKit
 
 class CountryListSectionView: UIView {
-    
+
     @IBOutlet weak var lblAlphabetical: UILabel!
-    
+
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
-    
+
     required init?(coder aDecoder: NSCoder) {
          super.init(coder: aDecoder)
      }
-    
+
     override func awakeFromNib() {
         lblAlphabetical.translatesAutoresizingMaskIntoConstraints = false
         setupConstraints()
     }
-    
+
     private func setupConstraints() {
         self.lblAlphabetical.snp.makeConstraints { (make) in
             make.left.equalTo(safeAreaInsets.left).offset(20)
@@ -37,13 +37,12 @@ class CountryListSectionView: UIView {
     }
 }
 
-
 extension CountryListSectionView: NibLoading {
     public static func instantiate() -> CountryListSectionView {
-        guard let view = CountryListSectionView.fromNib(nib: Nib.CountryListSectionView) else {
+        guard let view = CountryListSectionView.fromNib(nib: Nib.countryListSectionView) else {
             fatalError("failed to load CountryListSectionView from Nib")
         }
         return view
     }
-    
+
 }

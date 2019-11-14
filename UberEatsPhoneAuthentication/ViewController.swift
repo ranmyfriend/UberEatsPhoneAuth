@@ -10,22 +10,22 @@ import UIKit
 import SnapKit
 
 class ViewController: UIViewController {
-    
+
     lazy var blurredView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = UIColor.white
         return view
     }()
-    
+
     lazy var bgImageView: UIImageView = {
        let imageView = UIImageView(image: UIImage(named: "bg-image-view"))
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFit
         return imageView
     }()
-    
-    lazy var screen_1View: Screen_1 = Screen_1.instantiate()
+
+    lazy var screenOneView: ScreenOne = ScreenOne.instantiate()
     lazy var btnCancel: UIButton = {
         let btn = UIButton()
         btn.translatesAutoresizingMaskIntoConstraints = false
@@ -33,46 +33,44 @@ class ViewController: UIViewController {
         btn.addTarget(self, action: #selector(didTapCancel), for: .touchUpInside)
         return btn
     }()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         self.addScreen_1View()
         self.setupConstraints()
     }
-    
+
     @objc private func didTapCancel() {
-        UIView.animate(withDuration: 0.25, animations: {
-            self.screen_1View.lblGettingStarted.text = "Get started with Uber Eats"
+        UIView.animate(withDuration: 0.25, delay: 1.0, options: .transitionFlipFromTop, animations: {
+            self.screenOneView.lblGettingStarted.text = "Get started with Uber Eats"
             self.blurredView.backgroundColor = UIColor.white
             self.btnCancel.snp.removeConstraints()
             self.btnCancel.isHidden = true
-            self.screen_1View.snp.removeConstraints()
-            self.screen_1View.snp.makeConstraints { (make) in
+            self.screenOneView.snp.removeConstraints()
+            self.screenOneView.snp.makeConstraints { (make) in
                 make.left.equalTo(self.blurredView.snp_leftMargin).offset(-20)
                 make.right.equalTo(self.blurredView.snp_rightMargin).offset(20)
                 make.bottom.equalTo(self.blurredView.snp_bottomMargin).offset(8)
                 make.height.equalTo(150)
             }
-        }) { _ in
-            self.screen_1View.txtFieldMobileNumber.resignFirstResponder()
-            self.screen_1View.btnHolderTapper.isHidden = false
-        }
+        }, completion: {_ in
+            self.screenOneView.txtFieldMobileNumber.resignFirstResponder()
+            self.screenOneView.btnHolderTapper.isHidden = false
+        })
     }
-    
+
     private func addScreen_1View() {
         blurredView.addSubview(bgImageView)
-        blurredView.addSubview(screen_1View)
+        blurredView.addSubview(screenOneView)
         self.view.addSubview(blurredView)
-        screen_1View.holdTappedHandler = {
-            UIView.animate(withDuration: 0.25, animations: {
-                self.screen_1View.lblGettingStarted.text = "Enter your mobile number"
+        screenOneView.selfTapHandler = {
+            UIView.animate(withDuration: 1.00, delay: 0.25, options: .transitionFlipFromBottom, animations: {
+                self.screenOneView.lblGettingStarted.text = "Enter your mobile number"
                 self.blurredView.backgroundColor = .white
                 self.blurredView.addSubview(self.btnCancel)
-                
-                self.screen_1View.snp.removeConstraints()
-                
-                self.screen_1View.snp.updateConstraints { (make) in
+                self.screenOneView.snp.removeConstraints()
+                self.screenOneView.snp.updateConstraints { (make) in
                     make.left.equalTo(self.blurredView.snp_leftMargin).offset(-20)
                     make.right.equalTo(self.blurredView.snp_rightMargin).offset(20)
                     make.top.equalTo(self.btnCancel.snp_bottomMargin).offset(20)
@@ -83,19 +81,23 @@ class ViewController: UIViewController {
                     make.left.equalTo(self.blurredView.snp_leftMargin).offset(10)
                     make.top.equalTo(self.blurredView.snp_topMargin).offset(20)
                 }
-            }) { _ in
-                self.screen_1View.btnHolderTapper.isHidden = true
-                self.screen_1View.txtFieldMobileNumber.becomeFirstResponder()
+            }, completion: { _ in
+                self.screenOneView.btnHolderTapper.isHidden = true
+                self.screenOneView.txtFieldMobileNumber.becomeFirstResponder()
+            })
+        }
+        screenOneView.countryFlagTapHandler = {
+            do {
+                let countries = try JSONReader.countries()
+                let listScene = CountryCodeListController(countries: countries.countries)
+                listScene.delegate = self
+                self.present(listScene, animated: true, completion: nil)
+            } catch let error {
+                debugPrint("Error:\(error)")
             }
         }
-        screen_1View.countryCodeTapHandler = {
-            let countries = try! JSONReader.countries()
-            let listScene = CountryCodeListController(countries: countries.countries)
-            listScene.delegate = self
-            self.present(listScene, animated: true, completion: nil)
-        }
     }
-    
+
     private func setupConstraints() {
         blurredView.snp.makeConstraints { (make) in
             make.edges.equalTo(view.snp.edges)
@@ -103,22 +105,20 @@ class ViewController: UIViewController {
         bgImageView.snp.makeConstraints { (make) in
             make.edges.equalTo(blurredView.snp.edges)
         }
-        screen_1View.snp.makeConstraints { (make) in
+        screenOneView.snp.makeConstraints { (make) in
             make.left.equalTo(blurredView.snp_leftMargin).offset(-20)
             make.right.equalTo(blurredView.snp_rightMargin).offset(20)
             make.bottom.equalTo(blurredView.snp_bottomMargin).offset(8)
             make.height.equalTo(150)
         }
     }
-    
+
 }
 
-
-// MARK:- Extension | CountryPickerProtocol
+// MARK: - Extension | CountryPickerProtocol
 extension ViewController: countryPickerProtocol {
     func didPickCountry(model: Country) {
-        self.screen_1View.lblCountryCode.text = "+" + model.e164cc + " "
-        self.screen_1View.btnCountryCode.setTitle(model.flag, for: .normal)
+        self.screenOneView.lblCountryCode.text = "+" + model.e164cc + " "
+        self.screenOneView.btnCountryCode.setTitle(model.flag, for: .normal)
     }
 }
-

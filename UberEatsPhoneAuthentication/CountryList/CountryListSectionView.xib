@@ -21,13 +21,13 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="0.83137254900000002" green="0.83137254900000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="lblAlphabetical" destination="9Hb-a8-mxV" id="OAV-JB-Ybn"/>
             </connections>
-            <point key="canvasLocation" x="139" y="141"/>
+            <point key="canvasLocation" x="137.68115942028987" y="140.95982142857142"/>
         </view>
     </objects>
 </document>

@@ -10,31 +10,39 @@ import Foundation
 import UIKit
 
 public enum Nib: String {
-    case Screen_1
-    case CountryListSectionView
-    case CountryListTopBar
+    case screenOne
+    case countryListSectionView
+    case countryListTopBar
+
+    var value: String {
+        switch self {
+        case .screenOne: return "ScreenOne"
+        case .countryListSectionView: return "CountryListSectionView"
+        case .countryListTopBar: return "CountryListTopBar"
+        }
+    }
 }
 
 protocol NibLoading {
     associatedtype CustomNibType
-    
+
     static func fromNib(nib: Nib) -> CustomNibType?
 }
 
 extension NibLoading {
     static func fromNib(nib: Nib) -> Self? {
         // swiftformat:disable indent
-        guard let view = UINib(nibName: nib.rawValue, bundle: .framework)
+        guard let view = UINib(nibName: nib.value, bundle: .framework)
             .instantiate(withOwner: self, options: nil)
             .first as? Self else {
                 assertionFailure("Nib not found")
                 return nil
         }
         // swiftformat:enable indent
-        
+
         return view
     }
-    
+
     func view(fromNib nib: Nib) -> UIView? {
         return UINib(nibName: nib.rawValue, bundle: .framework).instantiate(withOwner: self, options: nil).first
             as? UIView
@@ -48,6 +56,5 @@ extension Bundle {
         return Bundle(for: RootViewModel.self)
     }
 }
-
 
 internal final class RootViewModel {}

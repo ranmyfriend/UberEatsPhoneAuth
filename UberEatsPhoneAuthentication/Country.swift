@@ -7,7 +7,7 @@
 
 import Foundation
 
-fileprivate let baseScalar: UInt32 = 127397
+private let baseScalar: UInt32 = 127397
 
 struct Country: Decodable {
     let e164cc: String
@@ -39,7 +39,6 @@ extension Country {
     }
 }
 
-
 extension Country {
     var flag: String {
         return iso2cc.unicodeScalars.compactMap {
@@ -47,5 +46,3 @@ extension Country {
         }.joined()
     }
 }
-
-

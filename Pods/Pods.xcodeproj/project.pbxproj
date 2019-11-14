@@ -3,285 +3,310 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		099FF71DACD81E9EC16A1B753723421A /* Pods-UberEatsPhoneAuthenticationTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 647AAED132551CE91A7F73801AE3F5DC /* Pods-UberEatsPhoneAuthenticationTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A4A0C6E32C2A725D5B3FC5A88B196B2 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0BDA59E35EDADDA1C9593FC9491B4 /* ConstraintDSL.swift */; };
-		1375A2440DA53F92B1AE7984EA8CD3A2 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F78A959B4A2DCBD099825999BFDDE /* ConstraintView.swift */; };
-		13DCF8DC41E5DCF780F0AA22A733CBF5 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0204358CFB47BB5097A5F0E23918EA96 /* Typealiases.swift */; };
-		1CA730A93A34482B1788BDF7136490A5 /* Pods-UberEatsPhoneAuthentication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BE4380D6633AE22108FDE227833801 /* Pods-UberEatsPhoneAuthentication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D3A0ACC3A67306EDE730C08CE79B220 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94A31CE3E1380ABEDB6A0997035158 /* ConstraintRelation.swift */; };
-		2DD2C5BC82B4884CD8B6C727C91F4ECA /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAFF367CF2A0017529276B38ADB1831 /* ConstraintDirectionalInsetTarget.swift */; };
-		2E0EB572103896D788B4A047BE934A60 /* Pods-UberEatsPhoneAuthentication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 151B3694754D18E3A0FDECE8722A9CD1 /* Pods-UberEatsPhoneAuthentication-dummy.m */; };
-		32D4DAF186CCE89ECD7EE9654CB9B3C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		36DDEF801379212C2ECFE3298BD87942 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6365D4E3958161E79A8A23679A93540F /* ConstraintLayoutGuide+Extensions.swift */; };
-		40639843A7A6B63815E038F00F8049F1 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9DFEE94A1D5B4C087FD5C8E316D27A /* ConstraintConstantTarget.swift */; };
-		43F537876A11DA76C822A2EB7552C251 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FE3DFFA3208D7FE3125AFD43C0577E /* ConstraintDirectionalInsets.swift */; };
-		4617DB70A59F44AFA42AF11441CCB8C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		4AA1566F3057FE6E1156476FDC07CAAD /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D4E5FB138C3063C5A103D7AAF1378F /* ConstraintOffsetTarget.swift */; };
-		514A4D997D8EBCD8A2F13BBB1BB599E3 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD89C1C7609B531FEDAFAD0C5F139C46 /* ConstraintLayoutGuide.swift */; };
-		562DE45963FB6259AADAADA0F026951E /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B98541DDDED95E0FE8BBD6861806278 /* ConstraintConfig.swift */; };
-		5660CC5157E8E485A99FEB6E8F6BCEF6 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADDB4BDF968CF05C743F99553B1248B /* ConstraintInsets.swift */; };
-		58996F54E7B7B4DD85DF0EEF999B29D4 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883A709B103628B942FF9B99E615FA40 /* ConstraintPriorityTarget.swift */; };
-		5C16A7CE0BC204D89F4FD343FCC352D2 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2182C787B52B04E99F29853370DD705C /* LayoutConstraint.swift */; };
-		631EE82AC37D9315386372E29B138FB0 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330CA8CA532F5A6647DDFF8BC3158948 /* Constraint.swift */; };
-		64EC69A75395677338ADD04F77A1C5EF /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA6F26A971C380F49C68460CC4B2E6 /* ConstraintMakerPriortizable.swift */; };
-		6858C7ECA3994B7076A6329CE57D76AD /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6B4B6E2DA3DB3E2B98A1587DB3B261 /* ConstraintDescription.swift */; };
-		6A6E039A222D57E90BD22C6E6E7A5646 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B8C7810E8DA5364BFD3CE11BE6222 /* ConstraintView+Extensions.swift */; };
-		6E96B1A091FA2F21116F343F01BC44EF /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10332A234E3D72885B34F22B3CA1A9CE /* ConstraintMakerEditable.swift */; };
-		81A8356B7534E6060628802AB054F846 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDEC97D5C629DF030B28B4DCDBDAB80 /* LayoutConstraintItem.swift */; };
-		92757055ED91D5D9B87E07E653590F3C /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23D3862A4A5C5724EFB04BA876CCE3D /* ConstraintMakerExtendable.swift */; };
-		9ACCB618E21D439380680B7D42F8C839 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFA26E8DCA3F1B00AA306E435F4D025 /* ConstraintItem.swift */; };
-		9BCB6EA00706D564F9C7D63D1ECCD7F2 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E10B6680EB13234751293D75F4A471CA /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A56DD5D3963B675866C6583B103E43D5 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E2243F6C09A4B7D2511915F87FFD37 /* ConstraintLayoutSupport.swift */; };
-		ABF77F293594B396493848C13FC4680E /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8187BFBBF724AA3F3D8043FAD595F72 /* Debugging.swift */; };
-		C1D70E61801C96CB4DD808E28681FC12 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909ED09B86A8827AB8A241381D387DC8 /* ConstraintLayoutGuideDSL.swift */; };
-		C68AC4B6C9548A52E3848927B602DFA4 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D2802EAB11A04BEC282E63A9EA85C6 /* SnapKit-dummy.m */; };
-		C97E6B46B93C54F4BD2F27572AF10AC9 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B935D18DE26BA4F02E2D1C511492409 /* ConstraintInsetTarget.swift */; };
-		DA463CA9A3E87DF599242AAB1F15F666 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E132AB6DA62DA4C0C602D3FFEBA75C /* ConstraintMaker.swift */; };
-		E0F896E8620613BC807B8A9EDD8B3149 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62872D3163DE520B8147A403F729C9A /* ConstraintViewDSL.swift */; };
-		E1F5C9053D5DF900293247B9E9EDF253 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34E33EEF77442690EB123AF6C82ED05 /* ConstraintLayoutSupportDSL.swift */; };
-		E4C1812D18A57CC438F82935222C8A53 /* Pods-UberEatsPhoneAuthenticationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 005A5CE7738D392792BFF60D99EA3D23 /* Pods-UberEatsPhoneAuthenticationTests-dummy.m */; };
-		E89C26DC9A50B2F2965756E32D694F50 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95867F8C852A9D315DBC470E8342316B /* UILayoutSupport+Extensions.swift */; };
-		E9F47BD8DC0A74CE9AA2EC30A774C016 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E42AAB983FA267C4F5A155C614C9C7 /* ConstraintMakerRelatable.swift */; };
-		EF557297FE25B8D57DB390EE5734ACB2 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E80861EA56B9687DBEE4E2C6DE1548F /* ConstraintAttributes.swift */; };
-		F961CD7DAC14A8589748A9049EE8E69C /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58763BD255A4D112B873AF406D04347 /* ConstraintPriority.swift */; };
-		F985E06E9B2633BC0D3A9B2CE6EECE6B /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF819BF1A2B0B16BF61B55FA272EC2B /* ConstraintMultiplierTarget.swift */; };
-		FA46D27A5C029BC6FA5C5EEFF7E0A74C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		FA790A80DD4144ECE0628B437CE09F55 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C539187959BF990751C4D7A8001526 /* ConstraintRelatableTarget.swift */; };
-		FC88F5D8A24995B17C4BAF2269325ADC /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD9FFEF3A9EB2F21B9CBCEACB3C224A /* ConstraintMakerFinalizable.swift */; };
+		01C550A53C9E2047C83F8E85BBB558E6 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847FC7CF460A971CF1DFE2F1F1B6ED4 /* ConstraintLayoutSupportDSL.swift */; };
+		039EAFE7935113805F3FC21BF1B7C9D5 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7AB7FE2852A624760A92391DFB5735 /* LayoutConstraint.swift */; };
+		04543980C4A7CE442330B0F1BC4A9A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1956E392D500F3CD899D39A5F805736D /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4007E8706CFCBFB3A4B060759D02989 /* Typealiases.swift */; };
+		1AFB1E9136716C0B61D6C700FF1E60FD /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22545903C32EB922E117BA049DAC054 /* ConstraintLayoutGuide+Extensions.swift */; };
+		1C0867E6BC31F69AD3EBDD961AFE717B /* Pods-UberEatsPhoneAuthenticationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB983FED1B34F509E596B9A82AE9B85 /* Pods-UberEatsPhoneAuthenticationTests-dummy.m */; };
+		21AB1101BBE4D28D74ED4EDF0D59025A /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61183029644BC889D7467405DE95BB8 /* ConstraintInsets.swift */; };
+		232B2F922E972D9F43D2EE15ACECE734 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982B6DF1709FAA87DD5839085F27011C /* ConstraintPriority.swift */; };
+		2A1BBBC87AC2367BD14610A9D10D285E /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0AABD7D3862BD6E2A0DAA17C2F01D /* ConstraintAttributes.swift */; };
+		2C06F2E972444D359754D21AC46BFFE2 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB4F28ACF99A9026F6186D2CE9E677B /* ConstraintInsetTarget.swift */; };
+		3BFC243AB9BD579969F0D5756560BCAA /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C9FA2416D5EA8E14068827716B61E4 /* Constraint.swift */; };
+		3E5285F4F36EAD77ECABBFB7F36BB1BB /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D7A67353DC7D1CC26D61E0DC8B7CE /* ConstraintView+Extensions.swift */; };
+		4C7A676DAE95EEAC3787A75349F0862D /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E8BF5B36BA89782555588F5A45B9EA /* SnapKit-dummy.m */; };
+		51CD5887014967E77E58F5A163996454 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EA103F18A7E0A667CA637DDC579235 /* ConstraintMaker.swift */; };
+		51EE50E71CC33000A2E41C017188A5E4 /* Pods-UberEatsPhoneAuthentication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD139C1A9B4D2FB5A344A829E8FB118 /* Pods-UberEatsPhoneAuthentication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B1876F2BE4168E5BFDB63D8CC849A0 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F164F063C8727EE7CDC72D23F0C76B8 /* ConstraintLayoutSupport.swift */; };
+		5854DF509E8A016B6235793D04083035 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A9B339A68A73DEC909218E80BF5B31 /* ConstraintConstantTarget.swift */; };
+		69CCBEEDFCA6D743D80026568D961919 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C632B3E58A74D7EE88B57E97F77BBDD7 /* ConstraintMakerExtendable.swift */; };
+		69E3A06BBDFDC7D06A9D4BDC4E895E73 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0F8B84DB8CDCE8480EC1EC988E3A29 /* ConstraintRelatableTarget.swift */; };
+		6E0EB9E7FAAEDBB7A73ECF3095F69C4A /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BAF1E4CF80C3949E92E98CD70C520B /* UILayoutSupport+Extensions.swift */; };
+		71DE9DC2FA583526AB4D1FD7F00C099C /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C0ED9EBA1D3EBC150AF559942F05A /* ConstraintDirectionalInsetTarget.swift */; };
+		75E146C12D1287228A0B493E87CDE31F /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C923459847652D71FEB49F1CEE57E4 /* ConstraintMakerRelatable.swift */; };
+		77C9889055A3B32EA13A9616824DB0ED /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514F9E88AE9BE3FAD407AEF5E10D1A83 /* ConstraintLayoutGuideDSL.swift */; };
+		7C1702076F3A31D8D2D45A4A9F09B266 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9799C025C9D5DB149B05FDE733F35824 /* ConstraintMakerEditable.swift */; };
+		8277256ADEC3C4DCF79957D1CA681A9A /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B8CCFFA44CE9BA5B25CB294B0A4AB6 /* ConstraintDSL.swift */; };
+		8705BBF0D428BF0AE1B554A377ECC540 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7BC35BFE24F9322F9588BC37AAF8FF /* ConstraintOffsetTarget.swift */; };
+		99B5296A5EDECE0557B9DA53D9E19CA1 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD40B75A3AF471D127B962C13F7BFE0 /* ConstraintItem.swift */; };
+		9B09968922C73D50040C6EEF57890D6E /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3043E6A29EC3004FC47369B1C0600AA /* ConstraintConfig.swift */; };
+		9D6DC1ED3AE0582B28163E43BE343BE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A270CD9EC3C541FE86E65AEDCEF500CF /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E96962DC5438531FBBF40CEC6BC3A0 /* ConstraintLayoutGuide.swift */; };
+		A66ED57B365A35434C5BAF4B990819B7 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 806C4F2DC4D944A70B027D928B5DCCDC /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB10344DB80408199F94B12EBA7A2ED4 /* Pods-UberEatsPhoneAuthenticationTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6A3E5E0B9B0A52DC72016E1A6840E17 /* Pods-UberEatsPhoneAuthenticationTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC35C9341C4BB156BB26FDD237EE3721 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1BB54275023A5FE4D5DB3ACC3FCFF /* ConstraintDirectionalInsets.swift */; };
+		B599696DFEF6B2A5ECF528F4E5BB1846 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309B307BE004B863BC0A8651D040E099 /* ConstraintDescription.swift */; };
+		B780B272106411CBE258BB60FFC45410 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F02C15551783142E1220198E7AB1F15 /* Debugging.swift */; };
+		BECA67DFB5E0984DFAEFCB775C31972E /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C764EE0DB6C18C78E32549128FBE4BB /* ConstraintView.swift */; };
+		C412F27D75AFC0DF0F0289DBB270931C /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50432A222A8A341CD80ED64F59B1D2F9 /* ConstraintMakerFinalizable.swift */; };
+		CE62FEABA57B2B53EABF8C7DCCC6B2C4 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6EC56466ED4EEA1A259F26F1ACA2C2 /* ConstraintRelation.swift */; };
+		D4697DC40F3B059E4A0867838CA1814E /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C5455E94BB009F1843CAA2E9A117C2 /* ConstraintMultiplierTarget.swift */; };
+		DE878939E3D960F2120B8E20546245A3 /* Pods-UberEatsPhoneAuthentication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E58B9B292BD1B841708815E8DB7A736A /* Pods-UberEatsPhoneAuthentication-dummy.m */; };
+		E34FE1700F75D6463F6B37CE9B2C0D12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E8F2429683B3015CBD39CE883770BCA7 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD50671558DD51F9D13633D8B5C38F3 /* ConstraintPriorityTarget.swift */; };
+		E9A970BC24EA15832F248EA020072746 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290A5321A03EE9C60177FD6CAC2CD703 /* LayoutConstraintItem.swift */; };
+		EB1726F5E0D0EEBA20E4528B1E37A8FA /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA43B3C024C376E8D96CFD84DD13A38 /* ConstraintViewDSL.swift */; };
+		EE909C7C786140109051BC9562EEC7C8 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C1E83834A45E74BFA47ECFBDFBE2E /* ConstraintMakerPriortizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		31A523D6A4467FF390ADEF2E3982D58A /* PBXContainerItemProxy */ = {
+		6BAFECD171C7919934DD965048AEC0F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4A316A3736C0E117102DBCC5A6F3E5E7;
+			remoteGlobalIDString = D9EA5CF1C232A41FDAAD19F8318ED682;
 			remoteInfo = "Pods-UberEatsPhoneAuthentication";
 		};
-		99408150CBF8A5F5BA433F72BEA29FEB /* PBXContainerItemProxy */ = {
+		A2350AF0AD2A894095352D15EA97F757 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5BB6D5A6CB41E55A65F135B3935FF594;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		E59DCE6A01F57604514CED78192FBC7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
 			remoteInfo = SnapKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		005A5CE7738D392792BFF60D99EA3D23 /* Pods-UberEatsPhoneAuthenticationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UberEatsPhoneAuthenticationTests-dummy.m"; sourceTree = "<group>"; };
-		0204358CFB47BB5097A5F0E23918EA96 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
-		04BE4380D6633AE22108FDE227833801 /* Pods-UberEatsPhoneAuthentication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UberEatsPhoneAuthentication-umbrella.h"; sourceTree = "<group>"; };
-		0F9EDFA765D8F8C9A9E467ABA6BCB810 /* Pods-UberEatsPhoneAuthenticationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberEatsPhoneAuthenticationTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0FFA26E8DCA3F1B00AA306E435F4D025 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
-		10332A234E3D72885B34F22B3CA1A9CE /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		151B3694754D18E3A0FDECE8722A9CD1 /* Pods-UberEatsPhoneAuthentication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UberEatsPhoneAuthentication-dummy.m"; sourceTree = "<group>"; };
-		2182C787B52B04E99F29853370DD705C /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
-		22213A60849DF9931623844AC7F9DB2E /* Pods-UberEatsPhoneAuthentication-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberEatsPhoneAuthentication-acknowledgements.plist"; sourceTree = "<group>"; };
-		26AA6F26A971C380F49C68460CC4B2E6 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
-		330CA8CA532F5A6647DDFF8BC3158948 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
-		3D24DDAB583BA1081CC3AA127A01B20C /* Pods_UberEatsPhoneAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UberEatsPhoneAuthentication.framework; path = "Pods-UberEatsPhoneAuthentication.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42D2802EAB11A04BEC282E63A9EA85C6 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
-		4E94A31CE3E1380ABEDB6A0997035158 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
-		54726CFC28B6625BBBB47EB832B17533 /* Pods-UberEatsPhoneAuthentication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberEatsPhoneAuthentication-Info.plist"; sourceTree = "<group>"; };
-		570FC92B327CAE27A85605EA6D0E14F8 /* Pods-UberEatsPhoneAuthentication-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UberEatsPhoneAuthentication-frameworks.sh"; sourceTree = "<group>"; };
-		5754A149872997B0F631268612B494F1 /* Pods-UberEatsPhoneAuthenticationTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UberEatsPhoneAuthenticationTests.modulemap"; sourceTree = "<group>"; };
-		5B98541DDDED95E0FE8BBD6861806278 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
-		6365D4E3958161E79A8A23679A93540F /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		647AAED132551CE91A7F73801AE3F5DC /* Pods-UberEatsPhoneAuthenticationTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UberEatsPhoneAuthenticationTests-umbrella.h"; sourceTree = "<group>"; };
-		6B935D18DE26BA4F02E2D1C511492409 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
-		6E70462DBEE894BE4AEBA68F5509DF2E /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		6E80861EA56B9687DBEE4E2C6DE1548F /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
-		78DE0DE87C49A214011D354140C32FA3 /* Pods-UberEatsPhoneAuthenticationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberEatsPhoneAuthenticationTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7CD9FFEF3A9EB2F21B9CBCEACB3C224A /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
-		7CF819BF1A2B0B16BF61B55FA272EC2B /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
-		7DC554E641031F2AEBE11F8DB0070BAB /* Pods-UberEatsPhoneAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberEatsPhoneAuthentication.release.xcconfig"; sourceTree = "<group>"; };
-		81D4E5FB138C3063C5A103D7AAF1378F /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		85E132AB6DA62DA4C0C602D3FFEBA75C /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
-		883A709B103628B942FF9B99E615FA40 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
-		89C0B0E33B4C01C58432D1601C97A53B /* Pods-UberEatsPhoneAuthenticationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UberEatsPhoneAuthenticationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8C574E7DEA04F0D543CB0AAB1ADC2F0E /* Pods-UberEatsPhoneAuthentication-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UberEatsPhoneAuthentication-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8CC0BDA59E35EDADDA1C9593FC9491B4 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
-		8D2B5735AAF27E5F4CC5CC6B3C842657 /* Pods_UberEatsPhoneAuthenticationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UberEatsPhoneAuthenticationTests.framework; path = "Pods-UberEatsPhoneAuthenticationTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		909ED09B86A8827AB8A241381D387DC8 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
-		90C539187959BF990751C4D7A8001526 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
-		95867F8C852A9D315DBC470E8342316B /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		04F0AABD7D3862BD6E2A0DAA17C2F01D /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		0A85CE655130B6FBEC48C18367FF89F4 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		0DD40B75A3AF471D127B962C13F7BFE0 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		0F02C15551783142E1220198E7AB1F15 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		13451E27C5A99E0869C8C421DDDDCF9C /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		1847FC7CF460A971CF1DFE2F1F1B6ED4 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		1CB465BC8077C97A1C02FB277E1BC5F3 /* Pods-UberEatsPhoneAuthentication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberEatsPhoneAuthentication-Info.plist"; sourceTree = "<group>"; };
+		1F5B4212FBD0FEBE250020E3C6C3F852 /* Pods-UberEatsPhoneAuthenticationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberEatsPhoneAuthenticationTests.release.xcconfig"; sourceTree = "<group>"; };
+		255D6672023BEDD6992B6B2835E112E5 /* Pods-UberEatsPhoneAuthentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberEatsPhoneAuthentication.debug.xcconfig"; sourceTree = "<group>"; };
+		25C5455E94BB009F1843CAA2E9A117C2 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		26101D11F9F49F6E8D448CE39E9DB799 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		290A5321A03EE9C60177FD6CAC2CD703 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		2C7AB7FE2852A624760A92391DFB5735 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		2EB4F28ACF99A9026F6186D2CE9E677B /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		309B307BE004B863BC0A8651D040E099 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		30B8CCFFA44CE9BA5B25CB294B0A4AB6 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FB983FED1B34F509E596B9A82AE9B85 /* Pods-UberEatsPhoneAuthenticationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UberEatsPhoneAuthenticationTests-dummy.m"; sourceTree = "<group>"; };
+		46AB850DC7A07BC732EBCA3066023935 /* Pods-UberEatsPhoneAuthentication-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberEatsPhoneAuthentication-acknowledgements.plist"; sourceTree = "<group>"; };
+		47C986348C5C81F395A29B549978CA8F /* Pods-UberEatsPhoneAuthenticationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UberEatsPhoneAuthenticationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BD139C1A9B4D2FB5A344A829E8FB118 /* Pods-UberEatsPhoneAuthentication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UberEatsPhoneAuthentication-umbrella.h"; sourceTree = "<group>"; };
+		50432A222A8A341CD80ED64F59B1D2F9 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		514F9E88AE9BE3FAD407AEF5E10D1A83 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		5C764EE0DB6C18C78E32549128FBE4BB /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		603D59301ED6487DCDFE0A830F8A7A78 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		67EA103F18A7E0A667CA637DDC579235 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		6A7BC35BFE24F9322F9588BC37AAF8FF /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		70F1BB54275023A5FE4D5DB3ACC3FCFF /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Source/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		7C6EC56466ED4EEA1A259F26F1ACA2C2 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		7D0F8B84DB8CDCE8480EC1EC988E3A29 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		806C4F2DC4D944A70B027D928B5DCCDC /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		8F164F063C8727EE7CDC72D23F0C76B8 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		9477ABFCF1790623409DC816C37D4860 /* Pods-UberEatsPhoneAuthenticationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberEatsPhoneAuthenticationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9799C025C9D5DB149B05FDE733F35824 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		982B6DF1709FAA87DD5839085F27011C /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		99E8BF5B36BA89782555588F5A45B9EA /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		9B5C1E83834A45E74BFA47ECFBDFBE2E /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		9BA43B3C024C376E8D96CFD84DD13A38 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		9CCCDE81D427CACB3F88FC56518E8789 /* Pods-UberEatsPhoneAuthentication-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UberEatsPhoneAuthentication-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A23D3862A4A5C5724EFB04BA876CCE3D /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
-		A34E33EEF77442690EB123AF6C82ED05 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
-		A58763BD255A4D112B873AF406D04347 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
-		A8187BFBBF724AA3F3D8043FAD595F72 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		AAA1700D87C4DCA2107A440C14152B5A /* Pods-UberEatsPhoneAuthenticationTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberEatsPhoneAuthenticationTests-Info.plist"; sourceTree = "<group>"; };
-		AAAFF367CF2A0017529276B38ADB1831 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Source/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
-		AADDB4BDF968CF05C743F99553B1248B /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
-		ADF581377E1DB2ABDF18FE826CBD9213 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B01FB959633EF5D24C4628FBD0CFA449 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
-		B3FE3DFFA3208D7FE3125AFD43C0577E /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Source/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
-		BB6B4B6E2DA3DB3E2B98A1587DB3B261 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		BD89C1C7609B531FEDAFAD0C5F139C46 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
-		BE9DFEE94A1D5B4C087FD5C8E316D27A /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
-		BF21718A39C7CA0E9EA65EFF3147B238 /* Pods-UberEatsPhoneAuthenticationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberEatsPhoneAuthenticationTests.release.xcconfig"; sourceTree = "<group>"; };
-		C62872D3163DE520B8147A403F729C9A /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
-		CA1B8C7810E8DA5364BFD3CE11BE6222 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D1E42AAB983FA267C4F5A155C614C9C7 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
-		D41F78A959B4A2DCBD099825999BFDDE /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
-		D8D19D7008FF20F0ADDA702C19B89C26 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
-		E10B6680EB13234751293D75F4A471CA /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
-		E1755BE063FE5D1DF20F513D3A01C4AF /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
-		ECDEC97D5C629DF030B28B4DCDBDAB80 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
-		F5E2243F6C09A4B7D2511915F87FFD37 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
-		F9A27813FDF5180AB499DC1811053C75 /* Pods-UberEatsPhoneAuthentication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UberEatsPhoneAuthentication.modulemap"; sourceTree = "<group>"; };
-		FCDFD71AD3BC76831299031EE8D50D6C /* Pods-UberEatsPhoneAuthentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberEatsPhoneAuthentication.debug.xcconfig"; sourceTree = "<group>"; };
+		A6406833E350B2862C7AB84CCDFD3DB4 /* Pods-UberEatsPhoneAuthenticationTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UberEatsPhoneAuthenticationTests.modulemap"; sourceTree = "<group>"; };
+		A9C923459847652D71FEB49F1CEE57E4 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		AA97766EA114C95F99C4BD2C8D8F5969 /* Pods-UberEatsPhoneAuthenticationTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberEatsPhoneAuthenticationTests-Info.plist"; sourceTree = "<group>"; };
+		B9C9FA2416D5EA8E14068827716B61E4 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		BDE0ABE90FB9CE74953A2F942FEA9983 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		BF0C0ED9EBA1D3EBC150AF559942F05A /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Source/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		C08D7A67353DC7D1CC26D61E0DC8B7CE /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		C3043E6A29EC3004FC47369B1C0600AA /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		C632B3E58A74D7EE88B57E97F77BBDD7 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		C9BAF1E4CF80C3949E92E98CD70C520B /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		C9EBB84BBAD8239EA96D91EA9E73222D /* Pods-UberEatsPhoneAuthentication-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UberEatsPhoneAuthentication-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCF3C691EEBF0AC0635E4EF9E729AE57 /* Pods-UberEatsPhoneAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberEatsPhoneAuthentication.release.xcconfig"; sourceTree = "<group>"; };
+		CFD50671558DD51F9D13633D8B5C38F3 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		D1E96962DC5438531FBBF40CEC6BC3A0 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		D2726D7B04C8854D899D434A0AC3E495 /* Pods_UberEatsPhoneAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UberEatsPhoneAuthentication.framework; path = "Pods-UberEatsPhoneAuthentication.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4007E8706CFCBFB3A4B060759D02989 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		E58B9B292BD1B841708815E8DB7A736A /* Pods-UberEatsPhoneAuthentication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UberEatsPhoneAuthentication-dummy.m"; sourceTree = "<group>"; };
+		E5A9B339A68A73DEC909218E80BF5B31 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		EA5945B61013D4B09B6AE2832D76B4B8 /* Pods_UberEatsPhoneAuthenticationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UberEatsPhoneAuthenticationTests.framework; path = "Pods-UberEatsPhoneAuthenticationTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABBF07122DD66FFA17BC5B8B1AE11AC /* Pods-UberEatsPhoneAuthenticationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberEatsPhoneAuthenticationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F22545903C32EB922E117BA049DAC054 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		F61183029644BC889D7467405DE95BB8 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		F6A3E5E0B9B0A52DC72016E1A6840E17 /* Pods-UberEatsPhoneAuthenticationTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UberEatsPhoneAuthenticationTests-umbrella.h"; sourceTree = "<group>"; };
+		FAD6453214D59E7E55EA806DBA223E1A /* Pods-UberEatsPhoneAuthentication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UberEatsPhoneAuthentication.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C1443619E885814A698F53018A647A9C /* Frameworks */ = {
+		3C8B1704CC97EF12D3409771318C6433 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4617DB70A59F44AFA42AF11441CCB8C0 /* Foundation.framework in Frameworks */,
+				04543980C4A7CE442330B0F1BC4A9A54 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7F057405E6AE52E5B582D913BDA9ED0 /* Frameworks */ = {
+		9350F816D71977E9446B1228A3EF8596 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA46D27A5C029BC6FA5C5EEFF7E0A74C /* Foundation.framework in Frameworks */,
+				E34FE1700F75D6463F6B37CE9B2C0D12 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F95BC9A182332C2A240AD57F89838515 /* Frameworks */ = {
+		AD0016BA98BBA2A24EED7F028CC69FB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32D4DAF186CCE89ECD7EE9654CB9B3C1 /* Foundation.framework in Frameworks */,
+				9D6DC1ED3AE0582B28163E43BE343BE5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11F5A53A1414698FC332BED87B99C408 /* Support Files */ = {
+		0C5109A8D1B1009B0CBF7EDE0DFA43AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8D19D7008FF20F0ADDA702C19B89C26 /* SnapKit.modulemap */,
-				B01FB959633EF5D24C4628FBD0CFA449 /* SnapKit.xcconfig */,
-				42D2802EAB11A04BEC282E63A9EA85C6 /* SnapKit-dummy.m */,
-				6E70462DBEE894BE4AEBA68F5509DF2E /* SnapKit-Info.plist */,
-				E1755BE063FE5D1DF20F513D3A01C4AF /* SnapKit-prefix.pch */,
-				E10B6680EB13234751293D75F4A471CA /* SnapKit-umbrella.h */,
+				D2726D7B04C8854D899D434A0AC3E495 /* Pods_UberEatsPhoneAuthentication.framework */,
+				EA5945B61013D4B09B6AE2832D76B4B8 /* Pods_UberEatsPhoneAuthenticationTests.framework */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SnapKit";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		546768CB3EB1B7EB3E4A1FBEE468A890 /* SnapKit */ = {
+		102FE1C82A5F068D3D7F6C6B44E44D9E /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				330CA8CA532F5A6647DDFF8BC3158948 /* Constraint.swift */,
-				6E80861EA56B9687DBEE4E2C6DE1548F /* ConstraintAttributes.swift */,
-				5B98541DDDED95E0FE8BBD6861806278 /* ConstraintConfig.swift */,
-				BE9DFEE94A1D5B4C087FD5C8E316D27A /* ConstraintConstantTarget.swift */,
-				BB6B4B6E2DA3DB3E2B98A1587DB3B261 /* ConstraintDescription.swift */,
-				B3FE3DFFA3208D7FE3125AFD43C0577E /* ConstraintDirectionalInsets.swift */,
-				AAAFF367CF2A0017529276B38ADB1831 /* ConstraintDirectionalInsetTarget.swift */,
-				8CC0BDA59E35EDADDA1C9593FC9491B4 /* ConstraintDSL.swift */,
-				AADDB4BDF968CF05C743F99553B1248B /* ConstraintInsets.swift */,
-				6B935D18DE26BA4F02E2D1C511492409 /* ConstraintInsetTarget.swift */,
-				0FFA26E8DCA3F1B00AA306E435F4D025 /* ConstraintItem.swift */,
-				BD89C1C7609B531FEDAFAD0C5F139C46 /* ConstraintLayoutGuide.swift */,
-				6365D4E3958161E79A8A23679A93540F /* ConstraintLayoutGuide+Extensions.swift */,
-				909ED09B86A8827AB8A241381D387DC8 /* ConstraintLayoutGuideDSL.swift */,
-				F5E2243F6C09A4B7D2511915F87FFD37 /* ConstraintLayoutSupport.swift */,
-				A34E33EEF77442690EB123AF6C82ED05 /* ConstraintLayoutSupportDSL.swift */,
-				85E132AB6DA62DA4C0C602D3FFEBA75C /* ConstraintMaker.swift */,
-				10332A234E3D72885B34F22B3CA1A9CE /* ConstraintMakerEditable.swift */,
-				A23D3862A4A5C5724EFB04BA876CCE3D /* ConstraintMakerExtendable.swift */,
-				7CD9FFEF3A9EB2F21B9CBCEACB3C224A /* ConstraintMakerFinalizable.swift */,
-				26AA6F26A971C380F49C68460CC4B2E6 /* ConstraintMakerPriortizable.swift */,
-				D1E42AAB983FA267C4F5A155C614C9C7 /* ConstraintMakerRelatable.swift */,
-				7CF819BF1A2B0B16BF61B55FA272EC2B /* ConstraintMultiplierTarget.swift */,
-				81D4E5FB138C3063C5A103D7AAF1378F /* ConstraintOffsetTarget.swift */,
-				A58763BD255A4D112B873AF406D04347 /* ConstraintPriority.swift */,
-				883A709B103628B942FF9B99E615FA40 /* ConstraintPriorityTarget.swift */,
-				90C539187959BF990751C4D7A8001526 /* ConstraintRelatableTarget.swift */,
-				4E94A31CE3E1380ABEDB6A0997035158 /* ConstraintRelation.swift */,
-				D41F78A959B4A2DCBD099825999BFDDE /* ConstraintView.swift */,
-				CA1B8C7810E8DA5364BFD3CE11BE6222 /* ConstraintView+Extensions.swift */,
-				C62872D3163DE520B8147A403F729C9A /* ConstraintViewDSL.swift */,
-				A8187BFBBF724AA3F3D8043FAD595F72 /* Debugging.swift */,
-				2182C787B52B04E99F29853370DD705C /* LayoutConstraint.swift */,
-				ECDEC97D5C629DF030B28B4DCDBDAB80 /* LayoutConstraintItem.swift */,
-				0204358CFB47BB5097A5F0E23918EA96 /* Typealiases.swift */,
-				95867F8C852A9D315DBC470E8342316B /* UILayoutSupport+Extensions.swift */,
-				11F5A53A1414698FC332BED87B99C408 /* Support Files */,
+				8F1E8D54D045692A164CBDD3AF462919 /* Support Files */,
 			);
-			name = SnapKit;
-			path = SnapKit;
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
-		8147BFFD5EEF41B8AC5372D0396B0308 /* Pods-UberEatsPhoneAuthenticationTests */ = {
+		7B668F9F9238FD9FA09D6F1506BCF672 /* Pods-UberEatsPhoneAuthenticationTests */ = {
 			isa = PBXGroup;
 			children = (
-				5754A149872997B0F631268612B494F1 /* Pods-UberEatsPhoneAuthenticationTests.modulemap */,
-				89C0B0E33B4C01C58432D1601C97A53B /* Pods-UberEatsPhoneAuthenticationTests-acknowledgements.markdown */,
-				0F9EDFA765D8F8C9A9E467ABA6BCB810 /* Pods-UberEatsPhoneAuthenticationTests-acknowledgements.plist */,
-				005A5CE7738D392792BFF60D99EA3D23 /* Pods-UberEatsPhoneAuthenticationTests-dummy.m */,
-				AAA1700D87C4DCA2107A440C14152B5A /* Pods-UberEatsPhoneAuthenticationTests-Info.plist */,
-				647AAED132551CE91A7F73801AE3F5DC /* Pods-UberEatsPhoneAuthenticationTests-umbrella.h */,
-				78DE0DE87C49A214011D354140C32FA3 /* Pods-UberEatsPhoneAuthenticationTests.debug.xcconfig */,
-				BF21718A39C7CA0E9EA65EFF3147B238 /* Pods-UberEatsPhoneAuthenticationTests.release.xcconfig */,
+				A6406833E350B2862C7AB84CCDFD3DB4 /* Pods-UberEatsPhoneAuthenticationTests.modulemap */,
+				47C986348C5C81F395A29B549978CA8F /* Pods-UberEatsPhoneAuthenticationTests-acknowledgements.markdown */,
+				EABBF07122DD66FFA17BC5B8B1AE11AC /* Pods-UberEatsPhoneAuthenticationTests-acknowledgements.plist */,
+				3FB983FED1B34F509E596B9A82AE9B85 /* Pods-UberEatsPhoneAuthenticationTests-dummy.m */,
+				AA97766EA114C95F99C4BD2C8D8F5969 /* Pods-UberEatsPhoneAuthenticationTests-Info.plist */,
+				F6A3E5E0B9B0A52DC72016E1A6840E17 /* Pods-UberEatsPhoneAuthenticationTests-umbrella.h */,
+				9477ABFCF1790623409DC816C37D4860 /* Pods-UberEatsPhoneAuthenticationTests.debug.xcconfig */,
+				1F5B4212FBD0FEBE250020E3C6C3F852 /* Pods-UberEatsPhoneAuthenticationTests.release.xcconfig */,
 			);
 			name = "Pods-UberEatsPhoneAuthenticationTests";
 			path = "Target Support Files/Pods-UberEatsPhoneAuthenticationTests";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		89B7D4E2707B611BCB868286C1E40CD5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				8B0EA5B585B0E48C59D70EE0CACC5B6D /* SnapKit */,
+				102FE1C82A5F068D3D7F6C6B44E44D9E /* SwiftLint */,
 			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		9CA859F3A3732F07C87721118BB9A4E5 /* Products */ = {
+		8B0EA5B585B0E48C59D70EE0CACC5B6D /* SnapKit */ = {
 			isa = PBXGroup;
 			children = (
-				3D24DDAB583BA1081CC3AA127A01B20C /* Pods_UberEatsPhoneAuthentication.framework */,
-				8D2B5735AAF27E5F4CC5CC6B3C842657 /* Pods_UberEatsPhoneAuthenticationTests.framework */,
-				ADF581377E1DB2ABDF18FE826CBD9213 /* SnapKit.framework */,
+				B9C9FA2416D5EA8E14068827716B61E4 /* Constraint.swift */,
+				04F0AABD7D3862BD6E2A0DAA17C2F01D /* ConstraintAttributes.swift */,
+				C3043E6A29EC3004FC47369B1C0600AA /* ConstraintConfig.swift */,
+				E5A9B339A68A73DEC909218E80BF5B31 /* ConstraintConstantTarget.swift */,
+				309B307BE004B863BC0A8651D040E099 /* ConstraintDescription.swift */,
+				70F1BB54275023A5FE4D5DB3ACC3FCFF /* ConstraintDirectionalInsets.swift */,
+				BF0C0ED9EBA1D3EBC150AF559942F05A /* ConstraintDirectionalInsetTarget.swift */,
+				30B8CCFFA44CE9BA5B25CB294B0A4AB6 /* ConstraintDSL.swift */,
+				F61183029644BC889D7467405DE95BB8 /* ConstraintInsets.swift */,
+				2EB4F28ACF99A9026F6186D2CE9E677B /* ConstraintInsetTarget.swift */,
+				0DD40B75A3AF471D127B962C13F7BFE0 /* ConstraintItem.swift */,
+				D1E96962DC5438531FBBF40CEC6BC3A0 /* ConstraintLayoutGuide.swift */,
+				F22545903C32EB922E117BA049DAC054 /* ConstraintLayoutGuide+Extensions.swift */,
+				514F9E88AE9BE3FAD407AEF5E10D1A83 /* ConstraintLayoutGuideDSL.swift */,
+				8F164F063C8727EE7CDC72D23F0C76B8 /* ConstraintLayoutSupport.swift */,
+				1847FC7CF460A971CF1DFE2F1F1B6ED4 /* ConstraintLayoutSupportDSL.swift */,
+				67EA103F18A7E0A667CA637DDC579235 /* ConstraintMaker.swift */,
+				9799C025C9D5DB149B05FDE733F35824 /* ConstraintMakerEditable.swift */,
+				C632B3E58A74D7EE88B57E97F77BBDD7 /* ConstraintMakerExtendable.swift */,
+				50432A222A8A341CD80ED64F59B1D2F9 /* ConstraintMakerFinalizable.swift */,
+				9B5C1E83834A45E74BFA47ECFBDFBE2E /* ConstraintMakerPriortizable.swift */,
+				A9C923459847652D71FEB49F1CEE57E4 /* ConstraintMakerRelatable.swift */,
+				25C5455E94BB009F1843CAA2E9A117C2 /* ConstraintMultiplierTarget.swift */,
+				6A7BC35BFE24F9322F9588BC37AAF8FF /* ConstraintOffsetTarget.swift */,
+				982B6DF1709FAA87DD5839085F27011C /* ConstraintPriority.swift */,
+				CFD50671558DD51F9D13633D8B5C38F3 /* ConstraintPriorityTarget.swift */,
+				7D0F8B84DB8CDCE8480EC1EC988E3A29 /* ConstraintRelatableTarget.swift */,
+				7C6EC56466ED4EEA1A259F26F1ACA2C2 /* ConstraintRelation.swift */,
+				5C764EE0DB6C18C78E32549128FBE4BB /* ConstraintView.swift */,
+				C08D7A67353DC7D1CC26D61E0DC8B7CE /* ConstraintView+Extensions.swift */,
+				9BA43B3C024C376E8D96CFD84DD13A38 /* ConstraintViewDSL.swift */,
+				0F02C15551783142E1220198E7AB1F15 /* Debugging.swift */,
+				2C7AB7FE2852A624760A92391DFB5735 /* LayoutConstraint.swift */,
+				290A5321A03EE9C60177FD6CAC2CD703 /* LayoutConstraintItem.swift */,
+				D4007E8706CFCBFB3A4B060759D02989 /* Typealiases.swift */,
+				C9BAF1E4CF80C3949E92E98CD70C520B /* UILayoutSupport+Extensions.swift */,
+				D1000931B65FCAD7D11DC6BEC45FF1BB /* Support Files */,
 			);
-			name = Products;
+			name = SnapKit;
+			path = SnapKit;
 			sourceTree = "<group>";
 		};
-		B5F187373CB32FBE74C96ABE1D00FEE9 /* Pods-UberEatsPhoneAuthentication */ = {
+		8F1E8D54D045692A164CBDD3AF462919 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F9A27813FDF5180AB499DC1811053C75 /* Pods-UberEatsPhoneAuthentication.modulemap */,
-				8C574E7DEA04F0D543CB0AAB1ADC2F0E /* Pods-UberEatsPhoneAuthentication-acknowledgements.markdown */,
-				22213A60849DF9931623844AC7F9DB2E /* Pods-UberEatsPhoneAuthentication-acknowledgements.plist */,
-				151B3694754D18E3A0FDECE8722A9CD1 /* Pods-UberEatsPhoneAuthentication-dummy.m */,
-				570FC92B327CAE27A85605EA6D0E14F8 /* Pods-UberEatsPhoneAuthentication-frameworks.sh */,
-				54726CFC28B6625BBBB47EB832B17533 /* Pods-UberEatsPhoneAuthentication-Info.plist */,
-				04BE4380D6633AE22108FDE227833801 /* Pods-UberEatsPhoneAuthentication-umbrella.h */,
-				FCDFD71AD3BC76831299031EE8D50D6C /* Pods-UberEatsPhoneAuthentication.debug.xcconfig */,
-				7DC554E641031F2AEBE11F8DB0070BAB /* Pods-UberEatsPhoneAuthentication.release.xcconfig */,
+				13451E27C5A99E0869C8C421DDDDCF9C /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		8F8D284C84FD253869840106BA695FC4 /* Pods-UberEatsPhoneAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6453214D59E7E55EA806DBA223E1A /* Pods-UberEatsPhoneAuthentication.modulemap */,
+				C9EBB84BBAD8239EA96D91EA9E73222D /* Pods-UberEatsPhoneAuthentication-acknowledgements.markdown */,
+				46AB850DC7A07BC732EBCA3066023935 /* Pods-UberEatsPhoneAuthentication-acknowledgements.plist */,
+				E58B9B292BD1B841708815E8DB7A736A /* Pods-UberEatsPhoneAuthentication-dummy.m */,
+				9CCCDE81D427CACB3F88FC56518E8789 /* Pods-UberEatsPhoneAuthentication-frameworks.sh */,
+				1CB465BC8077C97A1C02FB277E1BC5F3 /* Pods-UberEatsPhoneAuthentication-Info.plist */,
+				4BD139C1A9B4D2FB5A344A829E8FB118 /* Pods-UberEatsPhoneAuthentication-umbrella.h */,
+				255D6672023BEDD6992B6B2835E112E5 /* Pods-UberEatsPhoneAuthentication.debug.xcconfig */,
+				CCF3C691EEBF0AC0635E4EF9E729AE57 /* Pods-UberEatsPhoneAuthentication.release.xcconfig */,
 			);
 			name = "Pods-UberEatsPhoneAuthentication";
 			path = "Target Support Files/Pods-UberEatsPhoneAuthentication";
 			sourceTree = "<group>";
 		};
-		BA22F08D059965C9A09F78196176CEDB /* Pods */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				546768CB3EB1B7EB3E4A1FBEE468A890 /* SnapKit */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = Pods;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -289,16 +314,30 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BA22F08D059965C9A09F78196176CEDB /* Pods */,
-				9CA859F3A3732F07C87721118BB9A4E5 /* Products */,
+				89B7D4E2707B611BCB868286C1E40CD5 /* Pods */,
+				0C5109A8D1B1009B0CBF7EDE0DFA43AF /* Products */,
 				E3EDA3A1AB48AC3C8CF6101589F6118E /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D1000931B65FCAD7D11DC6BEC45FF1BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26101D11F9F49F6E8D448CE39E9DB799 /* SnapKit.modulemap */,
+				0A85CE655130B6FBEC48C18367FF89F4 /* SnapKit.xcconfig */,
+				99E8BF5B36BA89782555588F5A45B9EA /* SnapKit-dummy.m */,
+				603D59301ED6487DCDFE0A830F8A7A78 /* SnapKit-Info.plist */,
+				BDE0ABE90FB9CE74953A2F942FEA9983 /* SnapKit-prefix.pch */,
+				806C4F2DC4D944A70B027D928B5DCCDC /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -306,8 +345,8 @@
 		E3EDA3A1AB48AC3C8CF6101589F6118E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B5F187373CB32FBE74C96ABE1D00FEE9 /* Pods-UberEatsPhoneAuthentication */,
-				8147BFFD5EEF41B8AC5372D0396B0308 /* Pods-UberEatsPhoneAuthenticationTests */,
+				8F8D284C84FD253869840106BA695FC4 /* Pods-UberEatsPhoneAuthentication */,
+				7B668F9F9238FD9FA09D6F1506BCF672 /* Pods-UberEatsPhoneAuthenticationTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -315,79 +354,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3D82347143F4B181B4748C70A6CE67F2 /* Headers */ = {
+		73EBD57146F2D671D118A850604319DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				099FF71DACD81E9EC16A1B753723421A /* Pods-UberEatsPhoneAuthenticationTests-umbrella.h in Headers */,
+				AB10344DB80408199F94B12EBA7A2ED4 /* Pods-UberEatsPhoneAuthenticationTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD4C91FE47493DEDB3069C8A36910D14 /* Headers */ = {
+		7DFCF5F12AEEED0500986DBC9BF76170 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BCB6EA00706D564F9C7D63D1ECCD7F2 /* SnapKit-umbrella.h in Headers */,
+				A66ED57B365A35434C5BAF4B990819B7 /* SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED80A4F77238EA6E35377D66E997B1D9 /* Headers */ = {
+		F983D1C45140AF605210246637C2FA36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA730A93A34482B1788BDF7136490A5 /* Pods-UberEatsPhoneAuthentication-umbrella.h in Headers */,
+				51EE50E71CC33000A2E41C017188A5E4 /* Pods-UberEatsPhoneAuthentication-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4A316A3736C0E117102DBCC5A6F3E5E7 /* Pods-UberEatsPhoneAuthentication */ = {
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5262B0BA72457EDED3E76EAE1A1B63C8 /* Build configuration list for PBXNativeTarget "Pods-UberEatsPhoneAuthentication" */;
+			buildConfigurationList = 7F8CE4DC18DBEA01587212F09727DB3D /* Build configuration list for PBXNativeTarget "SnapKit" */;
 			buildPhases = (
-				ED80A4F77238EA6E35377D66E997B1D9 /* Headers */,
-				8C57289290C168805AA890CA18166613 /* Sources */,
-				E7F057405E6AE52E5B582D913BDA9ED0 /* Frameworks */,
-				D07EBE182FED36287906C69C594D8103 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6EA692B33CDB51B9C077B3165540D091 /* PBXTargetDependency */,
-			);
-			name = "Pods-UberEatsPhoneAuthentication";
-			productName = "Pods-UberEatsPhoneAuthentication";
-			productReference = 3D24DDAB583BA1081CC3AA127A01B20C /* Pods_UberEatsPhoneAuthentication.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5099D6A2150E9F065289B5D9938C53EA /* Pods-UberEatsPhoneAuthenticationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F917F6F3E708FB1F0A99B6587D09A093 /* Build configuration list for PBXNativeTarget "Pods-UberEatsPhoneAuthenticationTests" */;
-			buildPhases = (
-				3D82347143F4B181B4748C70A6CE67F2 /* Headers */,
-				FD2F516A2FED9195336C82954DD40BC6 /* Sources */,
-				F95BC9A182332C2A240AD57F89838515 /* Frameworks */,
-				70D7CCAF49F749794C5142BC5687DB64 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				249AB3CEBDD082C68E8F6332526C341F /* PBXTargetDependency */,
-			);
-			name = "Pods-UberEatsPhoneAuthenticationTests";
-			productName = "Pods-UberEatsPhoneAuthenticationTests";
-			productReference = 8D2B5735AAF27E5F4CC5CC6B3C842657 /* Pods_UberEatsPhoneAuthenticationTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5BB6D5A6CB41E55A65F135B3935FF594 /* SnapKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 73F415500C918D92E8AF24FB3FE77A1A /* Build configuration list for PBXNativeTarget "SnapKit" */;
-			buildPhases = (
-				DD4C91FE47493DEDB3069C8A36910D14 /* Headers */,
-				1B11AE79348761214470ADEC206CE7CC /* Sources */,
-				C1443619E885814A698F53018A647A9C /* Frameworks */,
-				5A17D1D9E287FA18C501E919197AD27D /* Resources */,
+				7DFCF5F12AEEED0500986DBC9BF76170 /* Headers */,
+				89222AF845A30312C284F407BA48B98F /* Sources */,
+				3C8B1704CC97EF12D3409771318C6433 /* Frameworks */,
+				9C691CAA90D9565F2EFF5EF823D8A80C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -395,7 +396,46 @@
 			);
 			name = SnapKit;
 			productName = SnapKit;
-			productReference = ADF581377E1DB2ABDF18FE826CBD9213 /* SnapKit.framework */;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77A856334E2FEAA1F0022EE6935B1776 /* Pods-UberEatsPhoneAuthenticationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2496F3A66C457059DB16D9295D4215 /* Build configuration list for PBXNativeTarget "Pods-UberEatsPhoneAuthenticationTests" */;
+			buildPhases = (
+				73EBD57146F2D671D118A850604319DA /* Headers */,
+				7BC8B7E052D6E5FF4116B5C0B54FD835 /* Sources */,
+				9350F816D71977E9446B1228A3EF8596 /* Frameworks */,
+				5D1962FEB563B108C5ACAED778729F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E25D2495840A238D54C65F1C3668B62 /* PBXTargetDependency */,
+			);
+			name = "Pods-UberEatsPhoneAuthenticationTests";
+			productName = "Pods-UberEatsPhoneAuthenticationTests";
+			productReference = EA5945B61013D4B09B6AE2832D76B4B8 /* Pods_UberEatsPhoneAuthenticationTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9EA5CF1C232A41FDAAD19F8318ED682 /* Pods-UberEatsPhoneAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3559B883FFCFFAC772ECFFD83DFCD456 /* Build configuration list for PBXNativeTarget "Pods-UberEatsPhoneAuthentication" */;
+			buildPhases = (
+				F983D1C45140AF605210246637C2FA36 /* Headers */,
+				E3686D77B5B0602CEDD42E535E00F040 /* Sources */,
+				AD0016BA98BBA2A24EED7F028CC69FB9 /* Frameworks */,
+				606497B32D8AC0F828B076F1AAAD33CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35D7EA0671E037742FBC7570735BE93 /* PBXTargetDependency */,
+				B4A64CB9D27F83D73C7572B81D6B0D92 /* PBXTargetDependency */,
+			);
+			name = "Pods-UberEatsPhoneAuthentication";
+			productName = "Pods-UberEatsPhoneAuthentication";
+			productReference = D2726D7B04C8854D899D434A0AC3E495 /* Pods_UberEatsPhoneAuthentication.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -404,44 +444,46 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9CA859F3A3732F07C87721118BB9A4E5 /* Products */;
+			productRefGroup = 0C5109A8D1B1009B0CBF7EDE0DFA43AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A316A3736C0E117102DBCC5A6F3E5E7 /* Pods-UberEatsPhoneAuthentication */,
-				5099D6A2150E9F065289B5D9938C53EA /* Pods-UberEatsPhoneAuthenticationTests */,
-				5BB6D5A6CB41E55A65F135B3935FF594 /* SnapKit */,
+				D9EA5CF1C232A41FDAAD19F8318ED682 /* Pods-UberEatsPhoneAuthentication */,
+				77A856334E2FEAA1F0022EE6935B1776 /* Pods-UberEatsPhoneAuthenticationTests */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5A17D1D9E287FA18C501E919197AD27D /* Resources */ = {
+		5D1962FEB563B108C5ACAED778729F58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70D7CCAF49F749794C5142BC5687DB64 /* Resources */ = {
+		606497B32D8AC0F828B076F1AAAD33CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D07EBE182FED36287906C69C594D8103 /* Resources */ = {
+		9C691CAA90D9565F2EFF5EF823D8A80C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,85 +493,167 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B11AE79348761214470ADEC206CE7CC /* Sources */ = {
+		7BC8B7E052D6E5FF4116B5C0B54FD835 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				631EE82AC37D9315386372E29B138FB0 /* Constraint.swift in Sources */,
-				EF557297FE25B8D57DB390EE5734ACB2 /* ConstraintAttributes.swift in Sources */,
-				562DE45963FB6259AADAADA0F026951E /* ConstraintConfig.swift in Sources */,
-				40639843A7A6B63815E038F00F8049F1 /* ConstraintConstantTarget.swift in Sources */,
-				6858C7ECA3994B7076A6329CE57D76AD /* ConstraintDescription.swift in Sources */,
-				43F537876A11DA76C822A2EB7552C251 /* ConstraintDirectionalInsets.swift in Sources */,
-				2DD2C5BC82B4884CD8B6C727C91F4ECA /* ConstraintDirectionalInsetTarget.swift in Sources */,
-				0A4A0C6E32C2A725D5B3FC5A88B196B2 /* ConstraintDSL.swift in Sources */,
-				5660CC5157E8E485A99FEB6E8F6BCEF6 /* ConstraintInsets.swift in Sources */,
-				C97E6B46B93C54F4BD2F27572AF10AC9 /* ConstraintInsetTarget.swift in Sources */,
-				9ACCB618E21D439380680B7D42F8C839 /* ConstraintItem.swift in Sources */,
-				36DDEF801379212C2ECFE3298BD87942 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
-				514A4D997D8EBCD8A2F13BBB1BB599E3 /* ConstraintLayoutGuide.swift in Sources */,
-				C1D70E61801C96CB4DD808E28681FC12 /* ConstraintLayoutGuideDSL.swift in Sources */,
-				A56DD5D3963B675866C6583B103E43D5 /* ConstraintLayoutSupport.swift in Sources */,
-				E1F5C9053D5DF900293247B9E9EDF253 /* ConstraintLayoutSupportDSL.swift in Sources */,
-				DA463CA9A3E87DF599242AAB1F15F666 /* ConstraintMaker.swift in Sources */,
-				6E96B1A091FA2F21116F343F01BC44EF /* ConstraintMakerEditable.swift in Sources */,
-				92757055ED91D5D9B87E07E653590F3C /* ConstraintMakerExtendable.swift in Sources */,
-				FC88F5D8A24995B17C4BAF2269325ADC /* ConstraintMakerFinalizable.swift in Sources */,
-				64EC69A75395677338ADD04F77A1C5EF /* ConstraintMakerPriortizable.swift in Sources */,
-				E9F47BD8DC0A74CE9AA2EC30A774C016 /* ConstraintMakerRelatable.swift in Sources */,
-				F985E06E9B2633BC0D3A9B2CE6EECE6B /* ConstraintMultiplierTarget.swift in Sources */,
-				4AA1566F3057FE6E1156476FDC07CAAD /* ConstraintOffsetTarget.swift in Sources */,
-				F961CD7DAC14A8589748A9049EE8E69C /* ConstraintPriority.swift in Sources */,
-				58996F54E7B7B4DD85DF0EEF999B29D4 /* ConstraintPriorityTarget.swift in Sources */,
-				FA790A80DD4144ECE0628B437CE09F55 /* ConstraintRelatableTarget.swift in Sources */,
-				1D3A0ACC3A67306EDE730C08CE79B220 /* ConstraintRelation.swift in Sources */,
-				6A6E039A222D57E90BD22C6E6E7A5646 /* ConstraintView+Extensions.swift in Sources */,
-				1375A2440DA53F92B1AE7984EA8CD3A2 /* ConstraintView.swift in Sources */,
-				E0F896E8620613BC807B8A9EDD8B3149 /* ConstraintViewDSL.swift in Sources */,
-				ABF77F293594B396493848C13FC4680E /* Debugging.swift in Sources */,
-				5C16A7CE0BC204D89F4FD343FCC352D2 /* LayoutConstraint.swift in Sources */,
-				81A8356B7534E6060628802AB054F846 /* LayoutConstraintItem.swift in Sources */,
-				C68AC4B6C9548A52E3848927B602DFA4 /* SnapKit-dummy.m in Sources */,
-				13DCF8DC41E5DCF780F0AA22A733CBF5 /* Typealiases.swift in Sources */,
-				E89C26DC9A50B2F2965756E32D694F50 /* UILayoutSupport+Extensions.swift in Sources */,
+				1C0867E6BC31F69AD3EBDD961AFE717B /* Pods-UberEatsPhoneAuthenticationTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C57289290C168805AA890CA18166613 /* Sources */ = {
+		89222AF845A30312C284F407BA48B98F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E0EB572103896D788B4A047BE934A60 /* Pods-UberEatsPhoneAuthentication-dummy.m in Sources */,
+				3BFC243AB9BD579969F0D5756560BCAA /* Constraint.swift in Sources */,
+				2A1BBBC87AC2367BD14610A9D10D285E /* ConstraintAttributes.swift in Sources */,
+				9B09968922C73D50040C6EEF57890D6E /* ConstraintConfig.swift in Sources */,
+				5854DF509E8A016B6235793D04083035 /* ConstraintConstantTarget.swift in Sources */,
+				B599696DFEF6B2A5ECF528F4E5BB1846 /* ConstraintDescription.swift in Sources */,
+				AC35C9341C4BB156BB26FDD237EE3721 /* ConstraintDirectionalInsets.swift in Sources */,
+				71DE9DC2FA583526AB4D1FD7F00C099C /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				8277256ADEC3C4DCF79957D1CA681A9A /* ConstraintDSL.swift in Sources */,
+				21AB1101BBE4D28D74ED4EDF0D59025A /* ConstraintInsets.swift in Sources */,
+				2C06F2E972444D359754D21AC46BFFE2 /* ConstraintInsetTarget.swift in Sources */,
+				99B5296A5EDECE0557B9DA53D9E19CA1 /* ConstraintItem.swift in Sources */,
+				1AFB1E9136716C0B61D6C700FF1E60FD /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				A270CD9EC3C541FE86E65AEDCEF500CF /* ConstraintLayoutGuide.swift in Sources */,
+				77C9889055A3B32EA13A9616824DB0ED /* ConstraintLayoutGuideDSL.swift in Sources */,
+				57B1876F2BE4168E5BFDB63D8CC849A0 /* ConstraintLayoutSupport.swift in Sources */,
+				01C550A53C9E2047C83F8E85BBB558E6 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				51CD5887014967E77E58F5A163996454 /* ConstraintMaker.swift in Sources */,
+				7C1702076F3A31D8D2D45A4A9F09B266 /* ConstraintMakerEditable.swift in Sources */,
+				69CCBEEDFCA6D743D80026568D961919 /* ConstraintMakerExtendable.swift in Sources */,
+				C412F27D75AFC0DF0F0289DBB270931C /* ConstraintMakerFinalizable.swift in Sources */,
+				EE909C7C786140109051BC9562EEC7C8 /* ConstraintMakerPriortizable.swift in Sources */,
+				75E146C12D1287228A0B493E87CDE31F /* ConstraintMakerRelatable.swift in Sources */,
+				D4697DC40F3B059E4A0867838CA1814E /* ConstraintMultiplierTarget.swift in Sources */,
+				8705BBF0D428BF0AE1B554A377ECC540 /* ConstraintOffsetTarget.swift in Sources */,
+				232B2F922E972D9F43D2EE15ACECE734 /* ConstraintPriority.swift in Sources */,
+				E8F2429683B3015CBD39CE883770BCA7 /* ConstraintPriorityTarget.swift in Sources */,
+				69E3A06BBDFDC7D06A9D4BDC4E895E73 /* ConstraintRelatableTarget.swift in Sources */,
+				CE62FEABA57B2B53EABF8C7DCCC6B2C4 /* ConstraintRelation.swift in Sources */,
+				3E5285F4F36EAD77ECABBFB7F36BB1BB /* ConstraintView+Extensions.swift in Sources */,
+				BECA67DFB5E0984DFAEFCB775C31972E /* ConstraintView.swift in Sources */,
+				EB1726F5E0D0EEBA20E4528B1E37A8FA /* ConstraintViewDSL.swift in Sources */,
+				B780B272106411CBE258BB60FFC45410 /* Debugging.swift in Sources */,
+				039EAFE7935113805F3FC21BF1B7C9D5 /* LayoutConstraint.swift in Sources */,
+				E9A970BC24EA15832F248EA020072746 /* LayoutConstraintItem.swift in Sources */,
+				4C7A676DAE95EEAC3787A75349F0862D /* SnapKit-dummy.m in Sources */,
+				1956E392D500F3CD899D39A5F805736D /* Typealiases.swift in Sources */,
+				6E0EB9E7FAAEDBB7A73ECF3095F69C4A /* UILayoutSupport+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD2F516A2FED9195336C82954DD40BC6 /* Sources */ = {
+		E3686D77B5B0602CEDD42E535E00F040 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C1812D18A57CC438F82935222C8A53 /* Pods-UberEatsPhoneAuthenticationTests-dummy.m in Sources */,
+				DE878939E3D960F2120B8E20546245A3 /* Pods-UberEatsPhoneAuthentication-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		249AB3CEBDD082C68E8F6332526C341F /* PBXTargetDependency */ = {
+		7E25D2495840A238D54C65F1C3668B62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-UberEatsPhoneAuthentication";
-			target = 4A316A3736C0E117102DBCC5A6F3E5E7 /* Pods-UberEatsPhoneAuthentication */;
-			targetProxy = 31A523D6A4467FF390ADEF2E3982D58A /* PBXContainerItemProxy */;
+			target = D9EA5CF1C232A41FDAAD19F8318ED682 /* Pods-UberEatsPhoneAuthentication */;
+			targetProxy = 6BAFECD171C7919934DD965048AEC0F2 /* PBXContainerItemProxy */;
 		};
-		6EA692B33CDB51B9C077B3165540D091 /* PBXTargetDependency */ = {
+		B4A64CB9D27F83D73C7572B81D6B0D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = A2350AF0AD2A894095352D15EA97F757 /* PBXContainerItemProxy */;
+		};
+		F35D7EA0671E037742FBC7570735BE93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
-			target = 5BB6D5A6CB41E55A65F135B3935FF594 /* SnapKit */;
-			targetProxy = 99408150CBF8A5F5BA433F72BEA29FEB /* PBXContainerItemProxy */;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = E59DCE6A01F57604514CED78192FBC7B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		493189177FD095E8F1CC0EC9207AC862 /* Debug */ = {
+		020BEC27E3AD6D7C84D288C148A58E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A85CE655130B6FBEC48C18367FF89F4 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		14DA2A3EC661DCA42500451A59B15F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5B4212FBD0FEBE250020E3C6C3F852 /* Pods-UberEatsPhoneAuthenticationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UberEatsPhoneAuthenticationTests/Pods-UberEatsPhoneAuthenticationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UberEatsPhoneAuthenticationTests/Pods-UberEatsPhoneAuthenticationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -580,7 +704,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -588,16 +712,15 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		538A5FEE709EFFE7270CC527054AF239 /* Debug */ = {
+		2E3C8A300772E0028147E4BAF0D5078A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCDFD71AD3BC76831299031EE8D50D6C /* Pods-UberEatsPhoneAuthentication.debug.xcconfig */;
+			baseConfigurationReference = 0A85CE655130B6FBEC48C18367FF89F4 /* SnapKit.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -608,71 +731,31 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		57C1D902D6EDEBC794389BB425724398 /* Release */ = {
+		75EC9C17ADAEAEDDDF395828DE2E1D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DC554E641031F2AEBE11F8DB0070BAB /* Pods-UberEatsPhoneAuthentication.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5A0E08732FBC175D8782CECAD1DD1EBC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78DE0DE87C49A214011D354140C32FA3 /* Pods-UberEatsPhoneAuthenticationTests.debug.xcconfig */;
+			baseConfigurationReference = 9477ABFCF1790623409DC816C37D4860 /* Pods-UberEatsPhoneAuthenticationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -687,7 +770,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-UberEatsPhoneAuthenticationTests/Pods-UberEatsPhoneAuthenticationTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -708,7 +791,24 @@
 			};
 			name = Debug;
 		};
-		C81EA092D14AE1D1D944AE64377DAA4B /* Release */ = {
+		84D7C4574E8F0F3095623F0E06F5B402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13451E27C5A99E0869C8C421DDDDCF9C /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -756,94 +856,37 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		CF8FBC6FA19B14FEE7AB1635F85F4929 /* Release */ = {
+		DEED47E09AF743F48544C1C4FEADEF47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B01FB959633EF5D24C4628FBD0CFA449 /* SnapKit.xcconfig */;
+			baseConfigurationReference = 13451E27C5A99E0869C8C421DDDDCF9C /* SwiftLint.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E20698F44E48542E678D0C03CAFD2699 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B01FB959633EF5D24C4628FBD0CFA449 /* SnapKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E375779AF77BAB79149F963135E6D1B3 /* Release */ = {
+		F04D7D83D6375AC6B29566A8B7629B1C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF21718A39C7CA0E9EA65EFF3147B238 /* Pods-UberEatsPhoneAuthenticationTests.release.xcconfig */;
+			baseConfigurationReference = CCF3C691EEBF0AC0635E4EF9E729AE57 /* Pods-UberEatsPhoneAuthentication.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -856,16 +899,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UberEatsPhoneAuthenticationTests/Pods-UberEatsPhoneAuthenticationTests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UberEatsPhoneAuthenticationTests/Pods-UberEatsPhoneAuthenticationTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -880,41 +923,88 @@
 			};
 			name = Release;
 		};
+		F44B3AC0A9E3EB5794AD48EF397DAFD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255D6672023BEDD6992B6B2835E112E5 /* Pods-UberEatsPhoneAuthentication.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UberEatsPhoneAuthentication/Pods-UberEatsPhoneAuthentication.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0D2496F3A66C457059DB16D9295D4215 /* Build configuration list for PBXNativeTarget "Pods-UberEatsPhoneAuthenticationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EC9C17ADAEAEDDDF395828DE2E1D36 /* Debug */,
+				14DA2A3EC661DCA42500451A59B15F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3559B883FFCFFAC772ECFFD83DFCD456 /* Build configuration list for PBXNativeTarget "Pods-UberEatsPhoneAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44B3AC0A9E3EB5794AD48EF397DAFD9 /* Debug */,
+				F04D7D83D6375AC6B29566A8B7629B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				493189177FD095E8F1CC0EC9207AC862 /* Debug */,
-				C81EA092D14AE1D1D944AE64377DAA4B /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5262B0BA72457EDED3E76EAE1A1B63C8 /* Build configuration list for PBXNativeTarget "Pods-UberEatsPhoneAuthentication" */ = {
+		7F8CE4DC18DBEA01587212F09727DB3D /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				538A5FEE709EFFE7270CC527054AF239 /* Debug */,
-				57C1D902D6EDEBC794389BB425724398 /* Release */,
+				2E3C8A300772E0028147E4BAF0D5078A /* Debug */,
+				020BEC27E3AD6D7C84D288C148A58E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73F415500C918D92E8AF24FB3FE77A1A /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E20698F44E48542E678D0C03CAFD2699 /* Debug */,
-				CF8FBC6FA19B14FEE7AB1635F85F4929 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F917F6F3E708FB1F0A99B6587D09A093 /* Build configuration list for PBXNativeTarget "Pods-UberEatsPhoneAuthenticationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A0E08732FBC175D8782CECAD1DD1EBC /* Debug */,
-				E375779AF77BAB79149F963135E6D1B3 /* Release */,
+				DEED47E09AF743F48544C1C4FEADEF47 /* Debug */,
+				84D7C4574E8F0F3095623F0E06F5B402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

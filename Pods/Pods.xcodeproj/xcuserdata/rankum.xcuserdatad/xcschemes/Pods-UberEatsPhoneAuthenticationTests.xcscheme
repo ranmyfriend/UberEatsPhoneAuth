@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5099D6A2150E9F065289B5D9938C53EA"
+               BlueprintIdentifier = "77A856334E2FEAA1F0022EE6935B1776"
                BuildableName = "Pods_UberEatsPhoneAuthenticationTests.framework"
                BlueprintName = "Pods-UberEatsPhoneAuthenticationTests"
                ReferencedContainer = "container:Pods.xcodeproj">

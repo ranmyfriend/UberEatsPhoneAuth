@@ -12,7 +12,7 @@ class CountryCodeListCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var codeLabel: UILabel!
     @IBOutlet weak var flagLabel: UILabel!
-    
+
     class var reuseIdentifier: String {
         return "CountryCodeListCell"
     }
